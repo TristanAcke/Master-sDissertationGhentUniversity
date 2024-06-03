@@ -78,6 +78,7 @@ def analyse4(toegang_doc):
     analyse4 += f"\t{zin1}"
     return analyse4
 
+# test article
 text = (
    """Art. Extra 02.
 De verhouding van de hoogte tot de breedte van elke deuropening moet minimaal 2:1 zijn om te zorgen voor voldoende verticale ruimte.
