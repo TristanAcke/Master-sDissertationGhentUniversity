@@ -5,8 +5,6 @@ nlp = spacy.load("nl_core_news_lg")
 client = OpenAI(api_key="FILL IN YOUR OWN API KEY")
 
 
-nlp = spacy.load("nl_core_news_lg")
-
 text1 = (
    """Het fietspad voor fietsers en bakfietsen moet een minimale breedte van 1 meter hebben, behalve indien in de 2 rijrichtingen het fietspad gekruist wordt, dan dient deze doorgang 2,2 meter breed te zijn.""")
 doc1 = nlp(text1)
