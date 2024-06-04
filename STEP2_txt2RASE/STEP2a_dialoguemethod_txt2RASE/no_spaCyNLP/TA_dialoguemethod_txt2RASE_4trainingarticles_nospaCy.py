@@ -3,7 +3,7 @@ from openai import OpenAI
 client = OpenAI(api_key="FILL IN YOUR OWN API KEY")
 
 
-
+### training data ###
 text1 = (
    """Het fietspad voor fietsers en bakfietsen moet een minimale breedte van 1 meter hebben, behalve indien in de 2 rijrichtingen het fietspad gekruist wordt, dan dient deze doorgang 2,2 meter breed te zijn.""")
 antwoord1 = """RASE annotated text: <R> Het <a>fietspad</a> voor <s>fietsers</s> en <s>bakfietsen</s> moet <r>een minimale breedte van 1 meter</r> hebben, <E>behalve indien in de 2 rijrichtingen het fietspad gekruist wordt, dan dient <a>deze doorgang</a> <r>2,2 meter breed</r> te zijn</E>. </R>"""
@@ -20,10 +20,12 @@ text4 = (
     """Art. 17.\nBij handelingen waarbij brandhaspels, brandblusapparaten of andere uit de wand stekende constructies geïnstalleerd worden, mogen die constructies het ongestoord gebruik van het looppad niet in het gedrang brengen. [Hiertoe kunnen die apparaten in een nis ingewerkt worden zodat ze niet buiten het afgewerkte muurvlak uitsteken.]""")
 antwoord4 = """RASE annotated text: \n\nArt. 17.\n<R> Bij <a> handelingen waarbij brandhaspels, brandblusapparaten of andere uit de wand stekende\nconstructies </a> geïnstalleerd worden, mogen die constructies het <r> ongestoord gebruik van het\nlooppad niet in het gedrang brengen </r>. </R> [Hiertoe kunnen die apparaten in een nis ingewerkt worden zodat ze niet buiten het afgewerkte muurvlak uitsteken.]"""
 
+### validation data ###
 text = """Art. Extra 02.
 De verhouding van de hoogte tot de breedte van elke deuropening moet minimaal 2:1 zijn om te zorgen voor voldoende verticale ruimte.
 """
 
+### GPT interaction (ChatCompletions) ###
 response = client.chat.completions.create(
 model="gpt-4-1106-preview",
  messages=[
