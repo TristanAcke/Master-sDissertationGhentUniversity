@@ -2,7 +2,7 @@ from openai import OpenAI
 
 client = OpenAI(api_key="FILL IN YOUR OWN API KEY")
 
-
+### training data ###
 text1 = (
    """Het fietspad voor fietsers en bakfietsen moet een minimale breedte van 1 meter hebben, behalve indien in de 2 rijrichtingen het fietspad gekruist wordt, dan dient deze doorgang 2,2 meter breed te zijn.""")
 antwoord1 = """RASE annotated text: <R> Het <a>fietspad</a> voor <s>fietsers</s> en <s>bakfietsen</s> moet <r>een minimale breedte van 1 meter</r> hebben, <E>behalve indien in de 2 rijrichtingen het fietspad gekruist wordt, dan dient <a>deze doorgang</a> <r>2,2 meter breed</r> te zijn</E>. </R>"""
@@ -233,10 +233,12 @@ Art. 32.
 <R> Het <a> toilet, de wastafel en de doucheruimte </a> die ter beschikking staan van de gebruiker van een aangepaste accommodatie, als vermeld in artikel 4, moeten aan <r> de bepalingen van dit hoofdstuk </r> voldoen. </R> <R> Als de aangepaste accommodatie een <a> vakantiewoning </a> betreft, moet vlak bij de ingang van de vakantiewoning in een <r> aangepaste parkeerplaats </r> worden voorzien, overeenkomstig artikel. </R>
 """
 
+### validation data ###
 text = """Art. Extra 02.
 De verhouding van de hoogte tot de breedte van elke deuropening moet minimaal 2:1 zijn om te zorgen voor voldoende verticale ruimte.
 """
 
+### GPT interaction (ChatCompletions) ###
 response = client.chat.completions.create(
 model="gpt-4-1106-preview",
  messages=[
