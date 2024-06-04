@@ -49,7 +49,7 @@ for not_annotated, RASE_annotated in zip(not_annotated_normative_text_spaCy_X_tr
         })
 messages.append({
         "role": "user",
-        "content": f".json-file van niet-geannoteerde tekst: {test_articles_not_annotated_text_spaCy['artikelen'][8]}"
+        "content": f".json-file van niet-geannoteerde tekst: {not_annotated_normative_text_spaCy_X_test_articles['artikelen'][8]}"
     })
 response = client.chat.completions.create(
     model="gpt-4-1106-preview",
