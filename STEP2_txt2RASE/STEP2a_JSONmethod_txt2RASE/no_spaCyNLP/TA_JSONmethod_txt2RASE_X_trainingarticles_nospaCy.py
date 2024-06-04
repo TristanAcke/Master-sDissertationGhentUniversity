@@ -26,8 +26,8 @@ with open('FILEPATH TO not_annotated_normative_text_X_training_articles.json', '
 with open('FILEPATH TO RASE_annotated_normative_text_X_training_articles.json', 'r') as file:
     RASE_annotated_normative_text_X_training_articles = json.load(file)
 
-with open('FILEPATH TO not_annotated_normative_text_spaCy_X_test_articles.json', 'r') as file:
-    not_annotated_normative_text_spaCy_X_test_articles = json.load(file)
+with open('FILEPATH TO not_annotated_normative_text_X_test_articles.json', 'r') as file:
+    not_annotated_normative_text_X_test_articles = json.load(file)
 
 
 
@@ -38,7 +38,7 @@ messages = [
     {"role": "system", "content": f'An example of a JSON input:\n{not_annotated_example}'},
     {"role": "system", "content": f'An example of the desired JSON output:\n{RASE_annotated_example}'},
     ]
-for not_annotated, RASE_annotated in zip(not_annotated_normative_text_spaCy_X_training_articles['artikelen'], RASE_annotated_normative_text_X_training_articles['artikelen']):
+for not_annotated, RASE_annotated in zip(not_annotated_normative_text_X_training_articles['artikelen'], RASE_annotated_normative_text_X_training_articles['artikelen']):
     messages.append({
             "role": "user",
             "content": f".json-file van niet-geannoteerde tekst: {not_annotated}"
@@ -49,7 +49,7 @@ for not_annotated, RASE_annotated in zip(not_annotated_normative_text_spaCy_X_tr
         })
 messages.append({
         "role": "user",
-        "content": f".json-file van niet-geannoteerde tekst: {not_annotated_normative_text_spaCy_X_test_articles['artikelen'][8]}"
+        "content": f".json-file van niet-geannoteerde tekst: {not_annotated_normative_text_X_test_articles['artikelen'][8]}"
     })
 response = client.chat.completions.create(
     model="gpt-4-1106-preview",
