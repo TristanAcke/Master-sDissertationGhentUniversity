@@ -4,7 +4,7 @@ import spacy
 nlp = spacy.load("nl_core_news_lg")
 client = OpenAI(api_key="FILL IN YOUR OWN API KEY")
 
-
+### training data ###
 text1 = (
    """Het fietspad voor fietsers en bakfietsen moet een minimale breedte van 1 meter hebben, behalve indien in de 2 rijrichtingen het fietspad gekruist wordt, dan dient deze doorgang 2,2 meter breed te zijn.""")
 doc1 = nlp(text1)
@@ -157,7 +157,7 @@ d. moet <a> een douchezitje </a> van <r> minstens 45 cm diep en 40 cm breed </r>
 e. moet aan <a> de voorzijde van het douchezitje </a> een <r> vrije ruimte van minstens 120 cm </r> zijn;
 f. moet de <a> douchekraan </a> aangebracht worden op een <r> afstand tussen 45 en 55 cm van de wand waartegen het douchezitje geplaatst is </r>. </R> </E>"""
 
-
+### spaCy analyses ###
 def analyse(toegang_doc):
     analyse = "\n"
     analyse += "Analysis 1: keywords of the text fragment:"
@@ -211,7 +211,7 @@ def analyse4(toegang_doc):
     analyse4 += f"\t{zin1}"
     return analyse4
 
-# test article
+### validation data ###
 text = (
    """Art. Extra 02.
 De verhouding van de hoogte tot de breedte van elke deuropening moet minimaal 2:1 zijn om te zorgen voor voldoende verticale ruimte.
@@ -225,7 +225,7 @@ analysis2 = analyse2(doc)
 analysis3 = analyse3(doc)
 analysis4 = analyse4(doc)
 
-
+### GPT interaction (ChatCompletions) ###
 response = client.chat.completions.create(
 model="gpt-4-1106-preview",
  messages=[
