@@ -5,7 +5,7 @@ client = OpenAI(api_key="FILL IN YOUR OWN API KEY")
 
 ### loading .json files ###
 ### change X depending on the number of training items used ###
-with open('FILEPATH TO general_explanation.json', 'r') as file:
+with open('FILEPATH TO general_explanation_RASE.json', 'r') as file:
     general_explanation = json.load(file)
 
 with open('FILEPATH TO zone_explanation_not_annotated.json', 'r') as file:
