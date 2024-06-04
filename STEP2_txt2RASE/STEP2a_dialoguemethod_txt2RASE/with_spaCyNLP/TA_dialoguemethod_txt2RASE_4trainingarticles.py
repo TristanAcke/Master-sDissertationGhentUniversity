@@ -4,7 +4,7 @@ import spacy
 nlp = spacy.load("nl_core_news_lg")
 client = OpenAI(api_key="FILL IN YOUR OWN API KEY")
 
-
+### training data ###
 text1 = (
    """Het fietspad voor fietsers en bakfietsen moet een minimale breedte van 1 meter hebben, behalve indien in de 2 rijrichtingen het fietspad gekruist wordt, dan dient deze doorgang 2,2 meter breed te zijn.""")
 doc1 = nlp(text1)
@@ -25,6 +25,7 @@ text4 = (
 doc4 = nlp(text4)
 antwoord4 = """RASE annotated text: \n\nArt. 17.\n<R> Bij <a> handelingen waarbij brandhaspels, brandblusapparaten of andere uit de wand stekende\nconstructies </a> geïnstalleerd worden, mogen die constructies het <r> ongestoord gebruik van het\nlooppad niet in het gedrang brengen </r>. </R> [Hiertoe kunnen die apparaten in een nis ingewerkt worden zodat ze niet buiten het afgewerkte muurvlak uitsteken.]"""
 
+### spaCy analyses ###
 def analyse(toegang_doc):
     analyse = "\n"
     analyse += "Analysis 1: keywords of the text fragment:"
@@ -78,7 +79,7 @@ def analyse4(toegang_doc):
     analyse4 += f"\t{zin1}"
     return analyse4
 
-# test article
+### validation data ###
 text = (
    """Art. Extra 02.
 De verhouding van de hoogte tot de breedte van elke deuropening moet minimaal 2:1 zijn om te zorgen voor voldoende verticale ruimte.
@@ -92,7 +93,7 @@ analysis2 = analyse2(doc)
 analysis3 = analyse3(doc)
 analysis4 = analyse4(doc)
 
-
+### GPT interaction (ChatCompletions) ###
 response = client.chat.completions.create(
 model="gpt-4-1106-preview",
  messages=[
