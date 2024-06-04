@@ -1,0 +1,498 @@
+@prefix inst: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix props: <https://w3id.org/props#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+schema:SpaceMVD
+a sh:NodeShape ;
+sh:targetClass bot:Space ;
+sh:property [
+sh:path props:heightIfcSpace ;
+sh:minCount 1 ;
+sh:maxCount 1 ;
+sh:message "MVD - each space should have exactly one 'heightIfcSpace'." ;
+] ;
+sh:property [
+sh:path props:widthIfcSpace ;
+sh:minCount 1 ;
+sh:maxCount 1 ;
+sh:message "MVD - each space should have exactly one 'widthIfcSpace'." ;
+] .
+
+schema:RampFlightMVD
+a sh:NodeShape ;
+sh:targetClass <https://pi.pauwel.be/voc/buildingelement#RampFlight> ;
+sh:property [
+sh:path props:widthIfcRampFlight ;
+sh:minCount 1 ;
+sh:maxCount 1 ;
+sh:message "MVD - each rampflight should have exactly one 'widthIfcRampFlight'." ;
+] .
+
+schema:SlabMVD
+a sh:NodeShape ;
+sh:targetClass <https://pi.pauwel.be/voc/buildingelement#Slab-LANDING> ;
+sh:property [
+sh:path props:widthIfcSlab ;
+sh:minCount 1 ;
+sh:maxCount 1 ;
+sh:message "MVD - each slab should have exactly one 'widthIfcSlab'." ;
+] ;
+sh:property [
+sh:path props:depthIfcSlab ;
+sh:minCount 1 ;
+sh:maxCount 1 ;
+sh:message "MVD - each slab should have exactly one 'depthIfcSlab'." ;
+] .
+
+schema:StairFlightMVD
+a sh:NodeShape ;
+sh:targetClass <https://pi.pauwel.be/voc/buildingelement#StairFlight> ;
+sh:property [
+sh:path props:numberOfRiserIfcStairFlight ;
+sh:minCount 1 ;
+sh:maxCount 1 ;
+sh:message "MVD - each stairflight should have exactly one 'numberOfRiserIfcStairFlight'." ;
+] .
+
+schema:StairMVD
+a sh:NodeShape ;
+sh:targetClass <https://pi.pauwel.be/voc/buildingelement#Stair> ;
+sh:property [
+sh:path props:width ;
+sh:minCount 1 ;
+sh:maxCount 1 ;
+sh:message "MVD - each stair should have exactly one 'width'." ;
+] .
+
+@prefix inst: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix props: <https://w3id.org/props#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+schema:DoorMVD
+  a sh:NodeShape ;
+  sh:targetClass <https://pi.pauwel.be/voc/buildingelement#Door> ;
+  sh:property [
+    sh:path props:overallHeightIfcDoor ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:message "MVD - each door should have exactly one 'overallHeightIfcDoor'." ;
+  ] ;
+  sh:property [
+    sh:path props:overallWidthIfcDoor ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:message "MVD - each door should have exactly one 'overallWidthIfcDoor'." ;
+  ] .
+
+// declaration of functions
+inst:lessThan
+  a sh:SPARQLFunction ;
+  rdfs:comment "Returns True if op1 < op2." ;
+  sh:parameter [
+    sh:path inst:op1 ;
+    sh:datatype xsd:double ;
+    sh:description "The first int" ;
+  ] ;
+  sh:parameter [
+    sh:path inst:op2 ;
+    sh:datatype xsd:double ;
+    sh:description "The second int" ;
+  ] ;
+  sh:returnType xsd:boolean ;
+  sh:select """
+    SELECT ?result
+    WHERE {
+      BIND(IF(?op1 < ?op2, true, false) AS ?result) .
+    }
+    """ .
+
+inst:stairFormula
+  a sh:SPARQLFunction ;
+  rdfs:comment "stair formula" ;
+  sh:parameter [
+    sh:path inst:op1 ;
+    sh:datatype xsd:double ;
+    sh:description "riserHeight" ;
+  ] ;
+  sh:parameter [
+    sh:path inst:op2 ;
+    sh:datatype xsd:double ;
+    sh:description "treadLength" ;
+  ] ;
+  sh:returnType xsd:double ;
+  sh:select """
+    SELECT ( (2 * $op1 + $op2) AS ?result)
+    WHERE {
+    }
+    """ .
+
+inst:slope
+  a sh:SPARQLFunction ;
+  rdfs:comment "slope of a rampflight" ;
+  sh:parameter [
+    sh:path inst:op1 ;
+    sh:datatype xsd:double ;
+    sh:description "height rampflight" ;
+  ] ;
+  sh:parameter [
+    sh:path inst:op2 ;
+    sh:datatype xsd:double ;
+    sh:description "length rampflight" ;
+  ] ;
+  sh:returnType xsd:double ;
+  sh:select """
+    SELECT ( ( ($op1 / $op2) * 100) AS ?result)
+    WHERE {
+    }
+    """ .
+
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix props: <https://w3id.org/props#> .
+@prefix inst: <http://example.org/> .
+
+schema:Space
+  a sh:NodeShape ;
+  sh:targetClass bot:Space ;
+  sh:property [
+    sh:path props:heightIfcSpace ;
+    sh:property schema:SpaceHeight ;
+  ] ;
+  sh:property [
+    sh:path props:widthIfcSpace ;
+    sh:property schema:SpaceWidth ;
+  ] .
+
+schema:SpaceHeight
+  a sh:PropertyShape ;
+  sh:path schema:value ;
+  sh:minInclusive "2300"^^xsd:double ;
+  sh:message "Art. 12 - The clearance height must be at least 2300 mm." .
+
+schema:SpaceWidth
+  a sh:PropertyShape ;
+  sh:path schema:value ;
+  sh:minInclusive "1500"^^xsd:double ;
+  sh:message "Art. 14 - The width of the walkway must be at least 1500 mm." .
+
+"schema:Slopes
+  a sh:NodeShape ;
+  sh:targetClass <https://pi.pauwel.be/voc/buildingelement#RampFlight> ;
+  sh:message "Art. 19 - The slope of a rampflight can be at most 10% when the difference in height is less than 100 mm. The slope of a rampflight can be at most 8.3% when the difference in height lies between 100 and 250 mm. The slope of a rampflight can be at most 6.25% when the difference in height lies between 250 and 500 mm. The slope of a rampflight can be at most 5% when the difference in height is more than 500 mm." ;
+  sh:or (
+    [
+      sh:and (
+        [
+          sh:expression [
+            inst:lessThan (
+              [
+                inst:slope (
+                  [ sh:path (props:heightIfcRampFlight schema:value) ]
+                  [ sh:path (props:lengthIfcRampFlight schema:value) ]
+                )
+              ]
+              10
+            )
+          ]
+        ]
+        sh:node schema:SlopeConstraint10
+      )
+    ]
+    [
+      sh:and (
+        [
+          sh:expression [
+            inst:lessThan (
+              [
+                inst:slope (
+                  [ sh:path (props:heightIfcRampFlight schema:value) ]
+                  [ sh:path (props:lengthIfcRampFlight schema:value) ]
+                )
+              ]
+              8.3
+            )
+          ]
+        ]
+        sh:node schema:SlopeConstraint8
+      )
+    ]
+    [
+      sh:and (
+        [
+          sh:expression [
+            inst:lessThan (
+              [
+                inst:slope (
+                  [ sh:path (props:heightIfcRampFlight schema:value) ]
+                  [ sh:path (props:lengthIfcRampFlight schema:value) ]
+                )
+              ]
+              6.25
+            )
+          ]
+        ]
+        sh:node schema:SlopeConstraint6
+      )
+    ]
+    [
+      sh:and (
+        [
+          sh:expression [
+            inst:lessThan (
+              [
+                inst:slope (
+                  [ sh:path (props:heightIfcRampFlight schema:value) ]
+                  [ sh:path (props:lengthIfcRampFlight schema:value) ]
+                )
+              ]
+              5
+            )
+          ]
+        ]
+        sh:node schema:SlopeConstraint5
+      )
+    ]
+  ) .
+
+schema:SlopeConstraint10
+  a sh:NodeShape ;
+  sh:property [
+    sh:path (props:heightIfcRampFlight schema:value) ;
+    sh:maxInclusive "100"^^xsd:double ;
+  ] .
+
+schema:SlopeConstraint8"
+  a sh:NodeShape ;
+  sh:property [
+    sh:path (props:heightIfcRampFlight schema:value) ;
+    sh:minInclusive "100"^^xsd:double ;
+    sh:maxInclusive "250"^^xsd:double ;
+  ] .
+
+schema:SlopeConstraint6
+  a sh:NodeShape ;
+  sh:property [
+    sh:path (props:heightIfcRampFlight schema:value) ;
+    sh:minInclusive "250"^^xsd:double ;
+    sh:maxInclusive "500"^^xsd:double ;
+  ] .
+
+schema:SlopeConstraint5
+  a sh:NodeShape ;
+  sh:property [
+    sh:path (props:heightIfcRampFlight schema:value) ;
+    sh:minInclusive "500"^^xsd:double ;
+  ] .
+
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix props: <https://w3id.org/props#> .
+@prefix inst: <http://example.org/> .
+
+schema:RampLanding
+  a sh:NodeShape ;
+  sh:targetClass <https://pi.pauwel.be/voc/buildingelement#Slab-LANDING> ;
+  sh:property [
+    sh:path props:widthIfcSlab ;
+    sh:property schema:RampLandingWidth ;
+  ] ;
+  sh:property [
+    sh:path props:depthIfcSlab ;
+    sh:property schema:RampLandingDepth ;
+  ] .
+
+schema:RampLandingWidth
+  a sh:PropertyShape ;
+  sh:path schema:value ;
+  sh:minInclusive "1200"^^xsd:double ;
+  sh:message "Art. 19 - The width of a landing of a ramp must be at least 1200 mm." .
+
+schema:RampLandingDepth
+  a sh:PropertyShape ;
+  sh:path schema:value ;
+  sh:minInclusive "1500"^^xsd:double ;
+  sh:message "Art. 19 - The depth of a landing of a ramp must be at least 1500 mm." .
+
+schema:RampFlight
+  a sh:NodeShape ;
+  sh:targetClass <https://pi.pauwel.be/voc/buildingelement#RampFlight> ;
+  sh:property [
+    sh:path props:heightIfcRampFlight ;
+    sh:property schema:RampFlightLanding ;
+  ] .
+
+schema:RampFlightLanding
+  a sh:PropertyShape ;
+  sh:path schema:value ;
+  sh:maxInclusive "500"^^xsd:double ;
+  sh:message "Art. 19 - A ramp must have an intermediate landing if the difference in height is more than 500 mm." .
+
+schema:RampFlightWidth
+  a sh:NodeShape ;
+  sh:targetClass <https://pi.pauwel.be/voc/buildingelement#RampFlight> ;
+  sh:message "Art. 19 - The width of a rampflight must be at least 1200 mm, if the slope is more than 4%." ;
+  sh:or (
+    [
+      sh:and (
+        [
+          sh:expression [
+            inst:lessThan (
+              4
+              [
+                inst:slope (
+                  [ sh:path (props:heightIfcRampFlight schema:value) ]
+                  [ sh:path (props:lengthIfcRampFlight schema:value) ]
+                )
+              ]
+            )
+          ]
+        ]
+        [
+          sh:node schema:RampFlightWidthConstraint
+        ]
+      )
+    ]
+    [
+      sh:expression [
+        inst:lessThan (
+          [
+            inst:slope (
+              [ sh:path (props:heightIfcRampFlight schema:value) ]
+              [ sh:path (props:lengthIfcRampFlight schema:value) ]
+            )
+          ]
+          4
+        )
+      ]
+    ]
+  ) .
+
+schema:RampFlightWidthConstraint
+  a sh:NodeShape ;
+  sh:property [
+    sh:path (props:widthIfcRampFlight schema:value) ;
+    sh:minInclusive "1200"^^xsd:double ;
+  ] .
+
+schema:StairFlight
+  a sh:NodeShape ;
+  sh:targetClass <https://pi.pauwel.be/voc/buildingelement#StairFlight> ;
+  sh:property [
+    sh:path props:numberOfRiserIfcStairFlight ;
+    sh:property schema:StairFlightLanding ;
+  ] ;
+  sh:property [
+    sh:path props:riserHeightIfcStairFlight ;
+    sh:property schema:StairFlightRiser ;
+  ] ;
+  sh:property [
+    sh:path props:treadLengthIfcStairFlight ;
+    sh:property schema:StairFlightTread ;
+  ] .
+
+schema:StairFlightLanding
+  a sh:PropertyShape ;
+  sh:path schema:value ;
+  sh:maxInclusive "17"^^xsd:double ;
+  sh:message "Art. 20 - A staircase must have an intermediate landing after at most 17 treads." .
+
+schema:StairFlightRiser
+  a sh:PropertyShape ;
+  sh:path schema:value ;
+  sh:maxInclusive "180"^^xsd:double ;
+  sh:message "Art. 20 - The riser height must be at most 180 mm." .
+
+schema:StairFlightTread
+  a sh:PropertyShape ;
+  sh:path schema:value ;
+  sh:minInclusive "230"^^xsd:double ;
+  sh:message "Art. 20 - The tread length must be at least 230 mm." .
+
+
+schema:TooEasy
+  a sh:NodeShape ;
+  sh:targetClass <https://pi.pauwel.be/voc/buildingelement#StairFlight> ;
+  sh:expression [
+    sh:message "Art. 20 - This stair is too easy." ;
+    inst:lessThan (
+      570
+      [
+        inst:stairFormula (
+          [ sh:path (props:riserHeightIfcStairFlight schema:value) ]
+          [ sh:path (props:treadLengthIfcStairFlight schema:value) ]    
+        )
+      ]
+    )
+  ] .
+
+schema:TooSteep
+  a sh:NodeShape ;
+  sh:targetClass <https://pi.pauwel.be/voc/buildingelement#StairFlight> ;
+  sh:expression [
+    sh:message "Art. 20 - This stair is too steep." ;
+    inst:lessThan (
+      [
+        inst:stairFormula (
+          [ sh:path (props:riserHeightIfcStairFlight schema:value) ]
+          [ sh:path (props:treadLengthIfcStairFlight schema:value) ]
+        )
+      ]
+      630
+    )
+  ] .
+
+schema:Stair
+  a sh:NodeShape ;
+  sh:targetClass <https://pi.pauwel.be/voc/buildingelement#Stair> ;
+  sh:property [
+    sh:path bot:hasSubElement ;
+    sh:qualifiedValueShape [ sh:class <https://pi.pauwel.be/voc/buildingelement#Railing> ];
+    sh:qualifiedMinCount 2 ;
+    sh:message "Art. 20 - All stairs must have a railing on both sides." ;
+  ] ;
+  sh:property [
+    sh:path props:width ;
+    sh:property schema:StairWidth ;
+  ].
+schema:StairWidth
+  a sh:PropertyShape ;
+  sh:path schema:value ;
+  sh:minInclusive "1000"^^xsd:double ;
+  sh:message "Art. 20 - The width of a staircase must be at least 1000 mm." .
+
+
+schema:Door
+  a sh:NodeShape ;
+  sh:targetClass <https://pi.pauwel.be/voc/buildingelement#Door> ;
+  sh:property [
+    sh:path props:overallHeightIfcDoor ;
+    sh:property schema:DoorHeight ;
+  ] ;
+  sh:property [
+    sh:path props:overallWidthIfcDoor ;
+    sh:property schema:DoorWidth ;
+  ] .
+
+schema:DoorHeight
+  a sh:PropertyShape ;
+  sh:path schema:value ;
+  sh:minInclusive "2090"^^xsd:double ;
+  sh:message "Art. 22 - The door height must be at least 2090 mm." .
+
+schema:DoorWidth
+  a sh:PropertyShape ;
+  sh:path schema:value ;
+  sh:minInclusive "900"^^xsd:double ;
+  sh:message "Art. 22 - The door width must at least 900 mm." .
