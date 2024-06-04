@@ -1,0 +1,8 @@
+{
+    "Functions in SHACL": [
+      {
+        "Functions": "inst:lessThan\n  a sh:SPARQLFunction ;\n  rdfs:comment \"Returns True if op1 < op2.\" ;\n  sh:parameter [\n    sh:path inst:op1 ;\n    sh:datatype xsd:double ;\n    sh:description \"The first int\" ;\n  ] ;\n  sh:parameter [\n    sh:path inst:op2 ;\n    sh:datatype xsd:double ;\n    sh:description \"The second int\" ;\n  ] ;\n  sh:returnType xsd:boolean ;\n  sh:select \"\"\"\n    SELECT ?result\n    WHERE {\n      BIND(IF(?op1 < ?op2, true, false) AS ?result) .\n    }\n    \"\"\" .\n\ninst:stairFormula\n  a sh:SPARQLFunction ;\n  rdfs:comment \"stair formula\" ;\n  sh:parameter [\n    sh:path inst:op1 ;\n    sh:datatype xsd:double ;\n    sh:description \"riserHeight\" ;\n  ] ;\n  sh:parameter [\n    sh:path inst:op2 ;\n    sh:datatype xsd:double ;\n    sh:description \"treadLength\" ;\n  ] ;\n  sh:returnType xsd:double ;\n  sh:select \"\"\"\n    SELECT ( (2 * $op1 + $op2) AS ?result)\n    WHERE {\n    }\n    \"\"\" .\n\ninst:slope\n  a sh:SPARQLFunction ;\n  rdfs:comment \"slope of a rampflight\" ;\n  sh:parameter [\n    sh:path inst:op1 ;\n    sh:datatype xsd:double ;\n    sh:description \"height rampflight\" ;\n  ] ;\n  sh:parameter [\n    sh:path inst:op2 ;\n    sh:datatype xsd:double ;\n    sh:description \"length rampflight\" ;\n  ] ;\n  sh:returnType xsd:double ;\n  sh:select \"\"\"\n    SELECT ( ( ($op1 / $op2) * 100) AS ?result)\n    WHERE {\n    }\n    \"\"\" ."
+      }
+    ]
+  }
+  

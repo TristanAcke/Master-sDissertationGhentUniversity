@@ -1,0 +1,45 @@
+{
+    "RASE_to_SHACL_Translation": {
+      "Introduction": {
+        "description": "RASE annotations (Requirements, Applicabilities, Selections, Exceptions) play a crucial role in translating normative texts into SHACL (Shapes Constraint Language), enabling structured and accurate modeling of regulations in a machine-readable format."
+      },
+      "Details": {
+        "Requirements": {
+          "definition": "Specify obligations or constraints within regulatory text.",
+          "application_in_SHACL": "Translated to `sh:PropertyShape` defining necessary properties and their constraints like `sh:minInclusive`, enforcing compliance.",
+          "example": {
+            "rule": "A door must be at least 80 cm wide.",
+            "SHACL_translation": "sh:property [ sh:path schema:doorWidth; sh:minInclusive 800; sh:message 'The door width must be at least 80 cm.' ]"
+          }
+        },
+        "Applicabilities": {
+          "definition": "Determine where, when, or on what objects a rule applies.",
+          "application_in_SHACL": "Managed by `sh:targetClass`, defining the scope of the shape.",
+          "example": {
+            "rule": "A regulation applicable only to commercial buildings.",
+            "SHACL_translation": "sh:targetClass schema:CommercialBuilding;"
+          }
+        },
+        "Selections": {
+          "definition": "Provide options or alternatives within the regulations.",
+          "application_in_SHACL": "Modeled with `sh:or` to specify multiple valid configurations.",
+          "example": {
+            "rule": "A safety feature may be of Type A or Type B.",
+            "SHACL_translation": "sh:or ([ sh:nodeKind schema:SafetyFeatureTypeA ] [ sh:nodeKind schema:SafetyFeatureTypeB ])"
+          }
+        },
+        "Exceptions": {
+          "definition": "Specify conditions where normal rules do not apply.",
+          "application_in_SHACL": "Defined with `sh:not` or conditional logic in SHACL.",
+          "example": {
+            "rule": "A rule does not apply to historical buildings.",
+            "SHACL_translation": "sh:not [ sh:targetClass schema:HistoricalBuilding; ]"
+          }
+        }
+      },
+      "Conclusion": {
+        "summary": "Integrating RASE principles into SHACL ensures clear, systematic approaches to capturing regulations in a machine-readable format, essential for automated compliance checks and data integrity."
+      }
+    }
+  }
+  

@@ -1,0 +1,40 @@
+{
+    "SHACL": {
+        "Definition": "SHACL (Shapes Constraint Language) is a language used to validate RDF data against predefined shapes.",
+        "Purpose": "It ensures data integrity, compliance with standards, and facilitates machine understanding."
+    },
+    "Constraint_Types": {
+        "Value_Constraints": "Check if values meet specific conditions such as being within a range.",
+        "Relational_Constraints": "Define relationships between nodes ensuring structural correctness.",
+        "Mathematical_Constraints": "Use mathematical expressions to define constraints on values.",
+        "Logical_Constraints": "Incorporate logical operators to combine multiple constraints."
+    },
+    "Usage": {
+        "Data_Validation": "SHACL is widely used to validate RDF data, ensuring it adheres to models and ontologies.",
+        "Application_In_Industries": "Used in healthcare, finance, and building information modeling for ensuring data conforms to standards."
+    },
+    "Prefixes_Explained": {
+        "schema": "<http://schema.org/> .",
+        "sh": "<http://www.w3.org/ns/shacl#> .",
+        "xsd": "<http://www.w3.org/2001/XMLSchema#> .",
+        "props": "<https://w3id.org/props#> .",
+        "inst": "<http://example.org/> .",
+        "owl": "<http://www.w3.org/2002/07/owl#> .",
+        "rdf": "<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .",
+        "rdfs": "<http://www.w3.org/2000/01/rdf-schema#> .",
+        "bot": "<https://w3id.org/bot#> "
+    },
+    "SHACL_Principles": {
+        "NodeShapes_and_PropertyShapes": {
+            "NodeShapes": "Define constraints applicable to RDF nodes. They specify required properties and/or that values of these properties meet certain conditions.",
+            "PropertyShapes": "Part of NodeShapes, defining constraints for specific properties within a NodeShape. They impose requirements on the property's value, such as minimum or maximum values."
+        },
+        "Targeting": {
+            "Description": "sh:targetClass is used to indicate the class of nodes to which the shape applies, imposing constraints on all instances of this class."
+        },
+        "Paths_and_Values": {
+            "Description": "sh:path specifies the path to the property in the RDF data structure that the shape targets.",
+            "Constraints": "Properties like sh:minInclusive and sh:maxInclusive set numerical limits on property values."
+        }
+    }
+}
