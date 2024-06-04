@@ -1,0 +1,26 @@
+{
+    "general_explanation": {
+      "introduction": "You'll learn RASE markup from a document and training sets of paired Dutch texts (one unannotated, one RASE-annotated). After reviewing, respond with: 'Everything carefully noted for developing a RASE annotated text.' Only when receiving a 'Prompt for GPT-4:' with an unannotated Dutch text and context about the text provided by SpaCy Natural Language Processing. Only when receiving 'Analysis 4:' then apply your training to produce a Dutch RASE-annotated version. Use only the provided materials to ensure accurate RASE annotations.",
+      "methodology": {
+        "description": "The RASE markup methodology is a sophisticated approach designed to make normative texts, such as legal standards, building codes, or guidelines, accessible and interpretable both by machines for automated processing and by humans for understanding and review.",
+        "components": {
+          "requirements": "Requirements (R): These are explicit mandates within the text that specify actions that must be taken or conditions that must be met. They are often signaled by modal verbs like 'must' or 'shall'.",
+          "applicabilities": "Applicabilities (A): This aspect determines when, where, or to what the requirements apply. Applicabilities set the context or scope under which certain rules or standards are relevant.",
+          "selections": "Selections (S): Selections offer options or alternatives within the regulations, allowing for flexibility in compliance. This might include a list of acceptable materials for a particular application, from which a builder can choose.",
+          "exceptions": "Exceptions (E): Exceptions provide specific circumstances under which a requirement does not apply. This is crucial for accommodating unique situations or for clarifying the limits of a regulation's applicability."
+        }
+      },
+      "practical_example": {
+        "text": "Consider a segment of text from a hypothetical building code: The access route for pedestrians wheelchair users shall not be steeper than 1:20. For distances of less than 3 metres, it may be steeper, but not more than 1:12.",
+        "markup_version": "<R> The <a> access route </a> for <s> pedestrians </s><s> wheelchair users </s> shall <r> not be steeper than 1:20 </r>. <E> For <a> distances of less than 3 metres </a>, it may be steeper, but <r> not more than 1:12 </r>. </E>",
+        "markup_explanation": {
+          "R": "Requirement (R): 'not be steeper than 1:20'",
+          "A": "Applicability (A): 'the access route'",
+          "S": "Selection (S): Implicit in this case, as the selection is between the use for pedestrians and wheelchair users.",
+          "E": "Exception (E): The exception is for 'distance of less than 3 metres' = 'For distances of less than 3 metres, it may be steeper, but not more than 1:12.'"
+        }
+      },
+      "conclusion": "The RASE markup method not only aids in the clear interpretation of normative texts by delineating requirements, applicabilities, selections, and exceptions but also ensures that these documents are ready for automated processing. This methodology enhances compliance checks, aids in the development of knowledge-based systems, and supports the digital transformation efforts within industries governed by complex regulations and standards."
+    }
+  }
+  

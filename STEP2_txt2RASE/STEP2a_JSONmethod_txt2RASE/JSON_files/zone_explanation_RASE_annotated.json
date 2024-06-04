@@ -1,0 +1,8 @@
+{
+    "artikelen": [
+      {
+        "artikel_id": "Dit veld vermeldt telkens het nummer van het artikel in kwestie.",
+        "geannoteerde_tekst": "Dit veld bevat de RASE-geannoteerde versie van de tekst van het artikel."
+      }
+    ]
+  }

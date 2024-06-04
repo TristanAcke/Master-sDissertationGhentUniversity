@@ -1,0 +1,35 @@
+{
+    "artikelen": [
+        {
+            "artikel_id": "Dit veld vermeldt telkens het nummer van het artikel in kwestie.",
+            "tekst": "Dit veld bevat de natuurlijke taal tekst van het artikel.",
+            "analyses": {
+                "beschrijving": "Hieronder volgen analyses uitgevoerd door spaCy, een bibliotheek voor natuurlijke taalverwerking die helpt bij het begrijpen, verwerken en analyseren van menselijke taal. spaCy biedt tools voor tokenisatie, part-of-speech tagging, named entity recognition, en syntactische afhankelijkheidsanalyse, wat essentieel is voor het structureren en interpreteren van tekst.",
+                "keywords": "Dit zijn de sleutelwoorden of belangrijke termen in de tekst, geïdentificeerd als de meest relevante woorden of zinnen die het onderwerp of de inhoud samenvatten.",
+                "pos_tags": {
+                    "beschrijving": "Part-of-speech tagging analyseert de woordsoorten in de tekst en classificeert elk woord volgens zijn functie in de zin: zelfstandige naamwoorden, werkwoorden, bijvoeglijke naamwoorden, enz.",
+                    "zelfstandige_naamwoorden_(noun)_[NOUN]": "Lijst van zelfstandige naamwoorden in de tekst.",
+                    "werkwoorden_(verb)_[VERB]": "Lijst van werkwoorden in de tekst.",
+                    "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": "Lijst van hulp- en koppelwerkwoorden in de tekst.",
+                    "persoonlijk_voornaamwoord_(pronoun)_[PRON]": "Lijst van persoonlijke voornaamwoorden in de tekst.",
+                    "eigennamen_(proper_noun)_[PROPN]": "Lijst van eigennamen in de tekst.",
+                    "voorzetsels_(adposition)_[ADP]": "Lijst van voorzetsels in de tekst.",
+                    "onderschikkend_voegwoord_(subordinating_conjunction)_[SCONJ]": "Lijst van onderschikkende voegwoorden in de tekst.",
+                    "nederschikkend_voegwoord_(coordinating_conjunction)_[CCONJ]": "Lijst van nevenschikkende voegwoorden in de tekst.",
+                    "lidwoorden_(determiner)_[DET]": "Lijst van lidwoorden in de tekst.",
+                    "bijwoorden_(adverb)_[ADV]": "Lijst van bijwoorden in de tekst.",
+                    "bijvoeglijke_naamwoorden_(adjective)_[ADJ]": "Lijst van bijvoeglijke naamwoorden in de tekst.",
+                    "leestekens_(punctuation_mark)_[PUNCT]": "Lijst van leestekens in de tekst.",
+                    "cijfergetallen_(numeral)_[NUM]": "Lijst van numerieke gegevens in de tekst."
+                },
+                "named_entities": {
+                    "beschrijving": "Named entity recognition identificeert en classificeert belangrijke informatie in de tekst zoals namen van personen, locaties, organisaties, datums en getallen."
+                },
+                "dependency_parsing": {
+                    "beschrijving": "Dependency parsing analyseert de grammaticale structuur van de tekst en identificeert relaties tussen 'head' woorden en woorden die van deze afhangen, wat helpt om de structuur van zinnen te begrijpen.",
+                    "uitleg": "1: Gebonden aan (headword), 2: soort gebondenheid/afhankelijkheid (dependency relationships)"
+                }
+            }
+        }
+    ]
+}
