@@ -4,7 +4,7 @@ import spacy
 nlp = spacy.load("nl_core_news_lg")
 client = OpenAI(api_key="FILL IN YOUR OWN API KEY")
 
-
+### training data ###
 text1 = (
    """Het fietspad voor fietsers en bakfietsen moet een minimale breedte van 1 meter hebben, behalve indien in de 2 rijrichtingen het fietspad gekruist wordt, dan dient deze doorgang 2,2 meter breed te zijn.""")
 doc1 = nlp(text1)
@@ -224,7 +224,7 @@ Art. 29/2.
 <R> Bij <a> handelingen aan publiek toegankelijke toiletten </a> moet <r> in elk sanitair blok minstens één toilet voldoen aan de bepalingen van artikel 12, 30, eerste lid en artikel 31, inzonderheid 1° en 2° </r>. </R> <R> Bij <a> handelingen aan publiek toegankelijke doucheruimtes </a>, moet <r> in elk sanitair blok minstens één douche voldoen aan de bepalingen van artikel 12, 30, tweede en derde alinea, artikel 31, inzonderheid 1° en 3° en artikel 31/1 </r>. </R> <R> Bij <a> aparte toiletten of doucheruimtes </a>, die alleen voor vrouwen of alleen voor mannen bestemd zijn, moet telkens <r> minstens één toilet of doucheruimte in elke zone voldoen aan de bepalingen van artikel 12 en artikel 30 tot en met 31/1 </r>, <e> tenzij het aangepast toilet of de aangepaste doucheruimte, bestemd voor zowel vrouwen als mannen, zich in een zone bevindt die niet gereserveerd is voor mannen dan wel vrouwen </e>. </R>
 """
 
-
+### spaCy analyses ###
 def analyse(toegang_doc):
     analyse = "\n"
     analyse += "Analysis 1: keywords of the text fragment:"
@@ -277,7 +277,8 @@ def analyse4(toegang_doc):
         zin1 += token.text + f"[1: {token.head.text}, 2: {token.dep_}] "
     analyse4 += f"\t{zin1}"
     return analyse4
-
+   
+### validation data ###
 text = (
    """Art. Extra 02.
 De verhouding van de hoogte tot de breedte van elke deuropening moet minimaal 2:1 zijn om te zorgen voor voldoende verticale ruimte.
@@ -290,7 +291,7 @@ analysis2 = analyse2(doc)
 analysis3 = analyse3(doc)
 analysis4 = analyse4(doc)
 
-
+### GPT interaction (ChatCompletions) ###
 response = client.chat.completions.create(
 model="gpt-4-1106-preview",
  messages=[
