@@ -1,0 +1,1362 @@
+{
+  "artikelen": [
+    {
+      "artikel_id": "Art. 23.",
+      "tekst": "Bij elke draaideur, moet er gezorgd worden voor een alternatieve toegang of deur, die niet draait. Deze verplichting geldt niet bij draaideuren die uitgerust zijn met mechanismen die het gebruik door personen met een handicap garanderen.",
+      "analyses": {
+        "keywords": [
+          "elke draaideur",
+          "een alternatieve toegang",
+          "deur",
+          "die",
+          "Deze verplichting",
+          "die",
+          "mechanismen",
+          "die",
+          "het gebruik",
+          "personen",
+          "een handicap"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "draaideur",
+            "toegang",
+            "deur",
+            "verplichting",
+            "mechanismen",
+            "gebruik",
+            "personen",
+            "handicap"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "zorgen",
+            "draaien",
+            "gelden",
+            "uitrusten",
+            "garanderen"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "moeten",
+            "worden",
+            "zijn"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [
+            "die",
+            "die",
+            "die"
+          ],
+          "eigennamen_(proper_noun)_[PROPN]": [],
+          "voorzetsels_(adposition)_[ADP]": [
+            "Bij",
+            "voor",
+            "bij",
+            "met",
+            "door",
+            "met"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [
+            "of"
+          ],
+          "lidwoord_(determiner)_[DET]": [
+            "elke",
+            "een",
+            "Deze",
+            "het",
+            "een"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [
+            "er",
+            "niet",
+            "niet"
+          ],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "alternatieve",
+            "draaideuren"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            ",",
+            ",",
+            ".",
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": []
+        },
+        "named_entities": {},
+        "dependency_parsing": "Bij[1: draaideur, 2: case] elke[1: draaideur, 2: det] draaideur[1: gezorgd, 2: obl] ,[1: draaideur, 2: punct] moet[1: gezorgd, 2: aux] er[1: gezorgd, 2: advmod] gezorgd[1: gezorgd, 2: ROOT] worden[1: gezorgd, 2: aux:pass] voor[1: toegang, 2: case] een[1: toegang, 2: det] alternatieve[1: toegang, 2: amod] toegang[1: gezorgd, 2: obl] of[1: deur, 2: cc] deur[1: toegang, 2: conj] ,[1: draait, 2: punct] die[1: draait, 2: nsubj] niet[1: draait, 2: advmod] draait[1: toegang, 2: acl:relcl] .[1: gezorgd, 2: punct] Deze[1: verplichting, 2: det] verplichting[1: geldt, 2: nsubj] geldt[1: geldt, 2: ROOT] niet[1: geldt, 2: advmod] bij[1: draaideuren, 2: case] draaideuren[1: geldt, 2: obl] die[1: uitgerust, 2: nsubj:pass] uitgerust[1: draaideuren, 2: acl:relcl] zijn[1: uitgerust, 2: aux:pass] met[1: mechanismen, 2: case] mechanismen[1: uitgerust, 2: obl] die[1: garanderen, 2: nsubj] het[1: gebruik, 2: det] gebruik[1: garanderen, 2: obj] door[1: personen, 2: case] personen[1: gebruik, 2: nmod] met[1: handicap, 2: case] een[1: handicap, 2: det] handicap[1: garanderen, 2: obl] garanderen[1: mechanismen, 2: acl:relcl] .[1: geldt, 2: punct]"
+      }
+    },
+    {
+      "artikel_id": "Art. 24.",
+      "tekst": "Vóór en achter elke toegang of deur waarop dit besluit van toepassing is, met uitsluiting van toegangen tot of deuren naar gesloten trappenhallen, moet voor een vrije en vlakke draairuimte worden gezorgd, die maximaal twee procent in één richting mag hellen met het oog op de afwatering. [De vrije en vlakke draairuimtes van meerdere deuren mogen elkaar overlappen. Het draaivlak van een deur moet vlak zijn.] Bij manueel te bedienen deuren moet de buitenste rand van de vrije en vlakke draairuimte aan de trekzijde van de deur, het draaivlak van de deur raken en moet de buitenste rand van de vrije en vlakke draairuimte aan de duwzijde van de deur, het gesloten deurvlak raken.",
+      "analyses": {
+        "keywords": [
+          "elke toegang",
+          "deur",
+          "dit besluit",
+          "toepassing",
+          "uitsluiting",
+          "toegangen",
+          "deuren",
+          "gesloten trappenhallen",
+          "een vrije en vlakke draairuimte",
+          "die",
+          "maximaal twee procent",
+          "richting",
+          "oog",
+          "de afwatering",
+          "[",
+          "De vrije en vlakke draairuimtes",
+          "meerdere deuren",
+          "Het draaivlak",
+          "een deur",
+          "manueel",
+          "deuren",
+          "de buitenste rand",
+          "de vrije en vlakke draairuimte",
+          "de trekzijde",
+          "de deur",
+          "het draaivlak",
+          "de deur",
+          "de buitenste rand",
+          "de vrije en vlakke draairuimte",
+          "de duwzijde",
+          "de deur",
+          "het gesloten deurvlak"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "toegang",
+            "deur",
+            "besluit",
+            "toepassing",
+            "uitsluiting",
+            "toegangen",
+            "deuren",
+            "trappenhallen",
+            "draairuimte",
+            "procent",
+            "richting",
+            "oog",
+            "afwatering",
+            "[",
+            "draairuimtes",
+            "deuren",
+            "draaivlak",
+            "deur",
+            "manueel",
+            "deuren",
+            "rand",
+            "draairuimte",
+            "trekzijde",
+            "deur",
+            "draaivlak",
+            "deur",
+            "rand",
+            "draairuimte",
+            "duwzijde",
+            "deur",
+            "deurvlak"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "sluiten",
+            "zorgen",
+            "hellen",
+            "overlappen",
+            "zijn",
+            "bedienen",
+            "raken",
+            "sluiten",
+            "raken"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "zijn",
+            "moeten",
+            "worden",
+            "mogen",
+            "mogen",
+            "moeten",
+            "moeten",
+            "moeten"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [
+            "die",
+            "elkaar"
+          ],
+          "eigennamen_(proper_noun)_[PROPN]": [],
+          "voorzetsels_(adposition)_[ADP]": [
+            "Vóór",
+            "achter",
+            "van",
+            "met",
+            "van",
+            "tot",
+            "naar",
+            "voor",
+            "in",
+            "met",
+            "op",
+            "van",
+            "van",
+            "Bij",
+            "te",
+            "van",
+            "aan",
+            "van",
+            "van",
+            "van",
+            "aan",
+            "van"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [
+            "en",
+            "of",
+            "of",
+            "en",
+            "en",
+            "en",
+            "en",
+            "en"
+          ],
+          "lidwoord_(determiner)_[DET]": [
+            "elke",
+            "dit",
+            "een",
+            "het",
+            "de",
+            "De",
+            "meerdere",
+            "Het",
+            "een",
+            "de",
+            "de",
+            "de",
+            "de",
+            "het",
+            "de",
+            "de",
+            "de",
+            "de",
+            "de",
+            "het"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [
+            "waarop"
+          ],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "vrije",
+            "vlakke",
+            "maximaal",
+            "vrije",
+            "vlakke",
+            "vlak",
+            "buitenste",
+            "vrije",
+            "vlakke",
+            "buitenste",
+            "vrije",
+            "vlakke"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            ",",
+            ",",
+            ",",
+            ".",
+            ".",
+            ".",
+            ",",
+            ",",
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": [
+            "twee",
+            "één"
+          ]
+        },
+        "named_entities": {
+          "PERCENT": "twee procent",
+          "CARDINAL": "één"
+        },
+        "dependency_parsing": "Vóór[1: Vóór, 2: ROOT] en[1: gezorgd, 2: cc] achter[1: toegang, 2: case] elke[1: toegang, 2: det] toegang[1: gezorgd, 2: obl] of[1: deur, 2: cc] deur[1: toegang, 2: conj] waarop[1: is, 2: advmod] dit[1: besluit, 2: det] besluit[1: is, 2: nsubj] van[1: toepassing, 2: case] toepassing[1: besluit, 2: nmod] is[1: toegang, 2: acl:relcl] ,[1: toegang, 2: punct] met[1: uitsluiting, 2: case] uitsluiting[1: gezorgd, 2: obl] van[1: toegangen, 2: case] toegangen[1: uitsluiting, 2: nmod] tot[1: deuren, 2: case] of[1: deuren, 2: cc] deuren[1: uitsluiting, 2: nmod] naar[1: trappenhallen, 2: case] gesloten[1: trappenhallen, 2: amod] trappenhallen[1: deuren, 2: nmod] ,[1: uitsluiting, 2: punct] moet[1: gezorgd, 2: aux] voor[1: draairuimte, 2: case] een[1: draairuimte, 2: det] vrije[1: draairuimte, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] draairuimte[1: gezorgd, 2: obl] worden[1: gezorgd, 2: aux:pass] gezorgd[1: Vóór, 2: conj] ,[1: hellen, 2: punct] die[1: hellen, 2: nsubj] maximaal[1: procent, 2: amod] twee[1: procent, 2: nummod] procent[1: hellen, 2: nsubj] in[1: richting, 2: case] één[1: richting, 2: nummod] richting[1: hellen, 2: obl] mag[1: hellen, 2: aux] hellen[1: gezorgd, 2: dep] met[1: afwatering, 2: case] het[1: met, 2: fixed] oog[1: met, 2: fixed] op[1: met, 2: fixed] de[1: afwatering, 2: det] afwatering[1: hellen, 2: obl] .[1: Vóór, 2: punct] [[1: [, 2: ROOT] De[1: draairuimtes, 2: det] vrije[1: draairuimtes, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] draairuimtes[1: overlappen, 2: obj] van[1: deuren, 2: case] meerdere[1: deuren, 2: det] deuren[1: draairuimtes, 2: nmod] mogen[1: overlappen, 2: aux] elkaar[1: overlappen, 2: obj] overlappen[1: overlappen, 2: ROOT] .[1: overlappen, 2: punct] Het[1: draaivlak, 2: det] draaivlak[1: vlak, 2: nsubj] van[1: deur, 2: case] een[1: deur, 2: det] deur[1: draaivlak, 2: nmod] moet[1: vlak, 2: aux] vlak[1: vlak, 2: ROOT] zijn[1: vlak, 2: cop] .[1: vlak, 2: punct] ][1: ], 2: ROOT] Bij[1: manueel, 2: case] manueel[1: bedienen, 2: obl] te[1: bedienen, 2: mark] bedienen[1: deuren, 2: acl] deuren[1: raken, 2: obj] moet[1: raken, 2: aux] de[1: rand, 2: det] buitenste[1: rand, 2: amod] rand[1: raken, 2: nsubj] van[1: draairuimte, 2: case] de[1: draairuimte, 2: det] vrije[1: draairuimte, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] draairuimte[1: rand, 2: nmod] aan[1: trekzijde, 2: case] de[1: trekzijde, 2: det] trekzijde[1: draairuimte, 2: nmod] van[1: deur, 2: case] de[1: deur, 2: det] deur[1: trekzijde, 2: nmod] ,[1: draaivlak, 2: punct] het[1: draaivlak, 2: det] draaivlak[1: rand, 2: appos] van[1: deur, 2: case] de[1: deur, 2: det] deur[1: raken, 2: obl] raken[1: raken, 2: ROOT] en[1: raken, 2: cc] moet[1: raken, 2: aux] de[1: rand, 2: det] buitenste[1: rand, 2: amod] rand[1: raken, 2: obj] van[1: draairuimte, 2: case] de[1: draairuimte, 2: det] vrije[1: draairuimte, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] draairuimte[1: rand, 2: nmod] aan[1: duwzijde, 2: case] de[1: duwzijde, 2: det] duwzijde[1: rand, 2: nmod] van[1: deur, 2: case] de[1: deur, 2: det] deur[1: duwzijde, 2: nmod] ,[1: raken, 2: punct] het[1: deurvlak, 2: det] gesloten[1: deurvlak, 2: amod] deurvlak[1: raken, 2: xcomp] raken[1: raken, 2: conj] .[1: raken, 2: punct]"
+      }
+    },
+    {
+      "artikel_id": "Art. 25.",
+      "tekst": "Bij een manueel te bedienen deur, met uitsluiting van toegangen tot of deuren naar gesloten trappenhallen, moet naast de krukzijde voor een vrije en vlakke wand- en vloerbreedte worden gezorgd, met een ruwbouwmaat van minstens 45 cm, zodat na de afwerking een vrije en vlakke wand- en vloerbreedte van minstens 50 cm gegarandeerd wordt.",
+      "analyses": {
+        "keywords": [
+          "een manueel",
+          "deur",
+          "uitsluiting",
+          "toegangen",
+          "deuren",
+          "gesloten trappenhallen",
+          "de krukzijde",
+          "een ruwbouwmaat",
+          "de afwerking",
+          "vloerbreedte"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "manueel",
+            "deur",
+            "uitsluiting",
+            "toegangen",
+            "deuren",
+            "trappenhallen",
+            "krukzijde",
+            "ruwbouwmaat",
+            "afwerking",
+            "vloerbreedte"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "bedienen",
+            "sluiten",
+            "zorgen",
+            "garanderen"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "moeten",
+            "worden",
+            "worden"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [],
+          "eigennamen_(proper_noun)_[PROPN]": [],
+          "voorzetsels_(adposition)_[ADP]": [
+            "Bij",
+            "te",
+            "met",
+            "van",
+            "tot",
+            "naar",
+            "naast",
+            "voor",
+            "vloerbreedte",
+            "met",
+            "van",
+            "na",
+            "van"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [
+            "zodat"
+          ],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [
+            "of",
+            "en",
+            "en",
+            "en",
+            "en"
+          ],
+          "lidwoord_(determiner)_[DET]": [
+            "een",
+            "de",
+            "een",
+            "een",
+            "de",
+            "een"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [
+            "minstens",
+            "minstens"
+          ],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "vrije",
+            "vlakke",
+            "vrije",
+            "vlakke"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            ",",
+            ",",
+            ",",
+            ",",
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": [
+            "45",
+            "50"
+          ]
+        },
+        "named_entities": {
+          "QUANTITY": "50 cm"
+        },
+        "dependency_parsing": "Bij[1: manueel, 2: case] een[1: manueel, 2: det] manueel[1: bedienen, 2: obl] te[1: bedienen, 2: mark] bedienen[1: deur, 2: acl] deur[1: gezorgd, 2: obl] ,[1: uitsluiting, 2: punct] met[1: uitsluiting, 2: case] uitsluiting[1: deur, 2: nmod] van[1: toegangen, 2: case] toegangen[1: uitsluiting, 2: nmod] tot[1: deuren, 2: case] of[1: deuren, 2: cc] deuren[1: uitsluiting, 2: nmod] naar[1: trappenhallen, 2: case] gesloten[1: trappenhallen, 2: amod] trappenhallen[1: deuren, 2: nmod] ,[1: deur, 2: punct] moet[1: gezorgd, 2: aux] naast[1: krukzijde, 2: case] de[1: krukzijde, 2: det] krukzijde[1: gezorgd, 2: obl] voor[1: wand-, 2: case] een[1: wand-, 2: det] vrije[1: wand-, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] wand-[1: krukzijde, 2: nmod] en[1: vloerbreedte, 2: cc] vloerbreedte[1: wand-, 2: conj] worden[1: gezorgd, 2: aux:pass] gezorgd[1: gezorgd, 2: ROOT] ,[1: ruwbouwmaat, 2: punct] met[1: ruwbouwmaat, 2: case] een[1: ruwbouwmaat, 2: det] ruwbouwmaat[1: gezorgd, 2: obl] van[1: cm, 2: case] minstens[1: cm, 2: amod] 45[1: cm, 2: nummod] cm[1: ruwbouwmaat, 2: nmod] ,[1: wordt, 2: punct] zodat[1: wordt, 2: mark] na[1: afwerking, 2: case] de[1: afwerking, 2: det] afwerking[1: gegarandeerd, 2: obl] een[1: wand-, 2: det] vrije[1: wand-, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] wand-[1: gegarandeerd, 2: nsubj:pass] en[1: vloerbreedte, 2: cc] vloerbreedte[1: wand-, 2: conj] van[1: cm, 2: case] minstens[1: cm, 2: amod] 50[1: cm, 2: nummod] cm[1: wand-, 2: nmod] gegarandeerd[1: wordt, 2: xcomp] wordt[1: gezorgd, 2: advcl] .[1: gezorgd, 2: punct]"
+      }
+    },
+    {
+      "artikel_id": "Art. 26.",
+      "tekst": "Deuren die toegang verlenen tot aangepaste sanitaire voorzieningen, kleedruimtes of pashokjes, moeten naar buiten opendraaien. Afdeling V. Bepalingen met betrekking tot parkeerplaatsen",
+      "analyses": {
+        "keywords": [
+          "Deuren",
+          "die",
+          "toegang",
+          "aangepaste sanitaire voorzieningen",
+          "kleedruimtes",
+          "pashokjes",
+          "Afdeling",
+          "Bepalingen",
+          "betrekking",
+          "parkeerplaatsen"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "Deuren",
+            "toegang",
+            "voorzieningen",
+            "kleedruimtes",
+            "pashokjes",
+            "Afdeling",
+            "Bepalingen",
+            "betrekking",
+            "parkeerplaatsen"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "verlenen",
+            "aangepaste",
+            "opendraaien"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "moeten"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [
+            "die"
+          ],
+          "eigennamen_(proper_noun)_[PROPN]": [
+            "V."
+          ],
+          "voorzetsels_(adposition)_[ADP]": [
+            "tot",
+            "naar",
+            "buiten",
+            "met",
+            "tot"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [
+            "of"
+          ],
+          "lidwoord_(determiner)_[DET]": [],
+          "bijwoorden_(adverb)_[ADV]": [],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "sanitaire"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            ",",
+            ",",
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": []
+        },
+        "named_entities": {},
+        "dependency_parsing": "Deuren[1: opendraaien, 2: nsubj] die[1: verlenen, 2: nsubj] toegang[1: verlenen, 2: obj] verlenen[1: Deuren, 2: acl:relcl] tot[1: voorzieningen, 2: case] aangepaste[1: voorzieningen, 2: amod] sanitaire[1: voorzieningen, 2: amod] voorzieningen[1: verlenen, 2: obl] ,[1: kleedruimtes, 2: punct] kleedruimtes[1: voorzieningen, 2: conj] of[1: pashokjes, 2: cc] pashokjes[1: kleedruimtes, 2: conj] ,[1: Deuren, 2: punct] moeten[1: opendraaien, 2: aux] naar[1: buiten, 2: case] buiten[1: opendraaien, 2: obl] opendraaien[1: opendraaien, 2: ROOT] .[1: opendraaien, 2: punct] Afdeling[1: Afdeling, 2: ROOT] V.[1: Afdeling, 2: appos] Bepalingen[1: Afdeling, 2: flat] met[1: parkeerplaatsen, 2: case] betrekking[1: met, 2: fixed] tot[1: met, 2: fixed] parkeerplaatsen[1: Afdeling, 2: nmod]"
+      }
+    },
+    {
+      "artikel_id": "Art. 27.",
+      "tekst": "Als een constructie beschikt over één tot en met honderd eigen parkeerplaatsen, moet minstens zes procent van het totale aantal parkeerplaatsen, en minstens één parkeerplaats, een aangepaste parkeerplaats zijn. Vanaf vijf tot en met honderd eigen parkeerplaatsen, moeten de aangepaste parkeerplaatsen ook voorbehouden parkeerplaatsen zijn. Als een constructie beschikt over meer dan honderd eigen parkeerplaatsen, moet bovendien per extra schijf van vijftig parkeerplaatsen, telkens één parkeerplaats een aangepaste en voorbehouden parkeerplaats zijn. Als het totale aantal nieuw aan te leggen parkeerplaatsen minder bedraagt dan zes procent van het totale aantal parkeerplaatsen, beperkt de verplichting van het eerste en het tweede lid zich tot de nieuw aan te leggen parkeerplaatsen. Een aangepaste parkeerplaats voldoet aan de volgende normen: 1. ze bevindt zich zo dicht mogelijk bij de toegankelijke ingang van de constructie of bij de voetgangersuitgang van de parkeervoorziening; 2. bij dwarsparkeren en schuinparkeren bedraagt de breedte van de aangepaste parkeerplaats minstens 350 cm en bij langsparkeren bedraagt de lengte van de aangepaste parkeerplaats minstens 600 cm; 3. het oppervlak van de aangepaste parkeerplaats helt niet meer dan twee procent. [Om als voorbehouden parkeerplaats in aanmerking te komen, moet een parkeerplaats aan de bepalingen van de derde alinea voldoen en voorbehouden worden voor personen met een handicap conform het koninklijk besluit houdende algemeen reglement op de politie van het wegverkeer en van het gebruik van de openbare weg van 1 december 1975, en aangegeven volgens de bepalingen van het voormelde koninklijk besluit en het ministerieel besluit van 11 oktober 1976 waarbij de minimumafmetingen en de bijzondere plaatsingsvoorwaarden van de verkeerstekens worden bepaald.] Afdeling VI. Bepalingen met betrekking tot vaste inrichtingselementen",
+      "analyses": {
+        "keywords": [
+          "een constructie",
+          "eigen parkeerplaatsen",
+          "minstens zes procent",
+          "het totale aantal",
+          "parkeerplaatsen",
+          "minstens één parkeerplaats",
+          "een aangepaste parkeerplaats",
+          "eigen parkeerplaatsen",
+          "de aangepaste parkeerplaatsen",
+          "parkeerplaatsen",
+          "een constructie",
+          "eigen parkeerplaatsen",
+          "extra schijf",
+          "parkeerplaatsen",
+          "telkens één parkeerplaats",
+          "een aangepaste en voorbehouden parkeerplaats",
+          "het totale aantal",
+          "parkeerplaatsen",
+          "procent",
+          "het totale aantal",
+          "parkeerplaatsen",
+          "de verplichting",
+          "het tweede lid",
+          "parkeerplaatsen",
+          "Een aangepaste parkeerplaats",
+          "de volgende normen",
+          "ze",
+          "dicht mogelijk bij de toegankelijke ingang",
+          "de constructie",
+          "de voetgangersuitgang",
+          "de parkeervoorziening",
+          "dwarsparkeren",
+          "schuinparkeren",
+          "de breedte",
+          "de aangepaste parkeerplaats",
+          "langsparkeren",
+          "de lengte",
+          "de aangepaste parkeerplaats",
+          "het oppervlak",
+          "de aangepaste parkeerplaats",
+          "procent",
+          "[",
+          "voorbehouden parkeerplaats",
+          "aanmerking",
+          "een parkeerplaats",
+          "de bepalingen",
+          "de derde alinea",
+          "personen",
+          "een handicap",
+          "het koninklijk besluit",
+          "algemeen reglement",
+          "de politie",
+          "het wegverkeer",
+          "het gebruik",
+          "de openbare weg",
+          "de bepalingen",
+          "het voormelde koninklijk besluit",
+          "het ministerieel besluit",
+          "de minimumafmetingen",
+          "de bijzondere plaatsingsvoorwaarden",
+          "de verkeerstekens",
+          "Bepalingen",
+          "betrekking",
+          "vaste inrichtingselementen"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "constructie",
+            "parkeerplaatsen",
+            "procent",
+            "aantal",
+            "parkeerplaatsen",
+            "parkeerplaats",
+            "parkeerplaats",
+            "parkeerplaatsen",
+            "parkeerplaatsen",
+            "parkeerplaatsen",
+            "constructie",
+            "parkeerplaatsen",
+            "schijf",
+            "parkeerplaatsen",
+            "parkeerplaats",
+            "parkeerplaats",
+            "aantal",
+            "parkeerplaatsen",
+            "procent",
+            "aantal",
+            "parkeerplaatsen",
+            "verplichting",
+            "lid",
+            "parkeerplaatsen",
+            "parkeerplaats",
+            "normen",
+            "ingang",
+            "constructie",
+            "voetgangersuitgang",
+            "parkeervoorziening",
+            "dwarsparkeren",
+            "schuinparkeren",
+            "breedte",
+            "parkeerplaats",
+            "langsparkeren",
+            "lengte",
+            "parkeerplaats",
+            "oppervlak",
+            "parkeerplaats",
+            "procent",
+            "[",
+            "parkeerplaats",
+            "aanmerking",
+            "parkeerplaats",
+            "bepalingen",
+            "alinea",
+            "personen",
+            "handicap",
+            "besluit",
+            "reglement",
+            "politie",
+            "wegverkeer",
+            "gebruik",
+            "weg",
+            "bepalingen",
+            "besluit",
+            "besluit",
+            "minimumafmetingen",
+            "plaatsingsvoorwaarden",
+            "verkeerstekens",
+            "Bepalingen",
+            "betrekking",
+            "inrichtingselementen"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "beschikken",
+            "aangepaste",
+            "aangepaste",
+            "voorbehouden",
+            "beschikken",
+            "aangepaste",
+            "voorbehouden",
+            "aanleggen",
+            "bedragen",
+            "beperken",
+            "aanleggen",
+            "aangepaste",
+            "voldoen",
+            "volgen",
+            "bevinden",
+            "bedragen",
+            "aangepaste",
+            "bedragen",
+            "aangepaste",
+            "aangepaste",
+            "hellen",
+            "voorbehouden",
+            "komen",
+            "voldoen",
+            "voorbehouden",
+            "houdennen",
+            "aangeven",
+            "voormelen",
+            "bepalen"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "moeten",
+            "zijn",
+            "moeten",
+            "zijn",
+            "moeten",
+            "zijn",
+            "moeten",
+            "worden",
+            "worden"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [
+            "meer",
+            "zich",
+            "ze",
+            "zich",
+            "meer"
+          ],
+          "eigennamen_(proper_noun)_[PROPN]": [
+            "december",
+            "oktober",
+            "Afdeling",
+            "VI"
+          ],
+          "voorzetsels_(adposition)_[ADP]": [
+            "over",
+            "tot",
+            "met",
+            "van",
+            "Vanaf",
+            "tot",
+            "met",
+            "over",
+            "per",
+            "van",
+            "aan",
+            "te",
+            "van",
+            "van",
+            "tot",
+            "aan",
+            "te",
+            "aan",
+            "bij",
+            "van",
+            "bij",
+            "van",
+            "bij",
+            "van",
+            "bij",
+            "van",
+            "van",
+            "Om",
+            "in",
+            "te",
+            "aan",
+            "van",
+            "voor",
+            "met",
+            "conform",
+            "op",
+            "van",
+            "van",
+            "van",
+            "van",
+            "volgens",
+            "van",
+            "van",
+            "van",
+            "met",
+            "tot"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [
+            "Als",
+            "Als",
+            "dan",
+            "Als",
+            "dan",
+            "dan",
+            "als"
+          ],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [
+            "en",
+            "en",
+            "en",
+            "en",
+            "en",
+            "of",
+            "en",
+            "en",
+            "en",
+            "en",
+            "en",
+            "en",
+            "en"
+          ],
+          "lidwoord_(determiner)_[DET]": [
+            "een",
+            "het",
+            "een",
+            "de",
+            "een",
+            "een",
+            "het",
+            "het",
+            "de",
+            "het",
+            "het",
+            "de",
+            "Een",
+            "de",
+            "de",
+            "de",
+            "de",
+            "de",
+            "de",
+            "de",
+            "de",
+            "de",
+            "het",
+            "de",
+            "een",
+            "de",
+            "de",
+            "een",
+            "het",
+            "de",
+            "het",
+            "het",
+            "de",
+            "de",
+            "het",
+            "het",
+            "de",
+            "de",
+            "de"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [
+            "minstens",
+            "minstens",
+            "ook",
+            "bovendien",
+            "telkens",
+            "weinig",
+            "zo",
+            "minstens",
+            "minstens",
+            "niet",
+            "waarbij"
+          ],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "eigen",
+            "totale",
+            "eigen",
+            "eigen",
+            "extra",
+            "totale",
+            "nieuw",
+            "totale",
+            "eerste",
+            "tweede",
+            "nieuw",
+            "dicht",
+            "mogelijk",
+            "toegankelijke",
+            "derde",
+            "koninklijk",
+            "algemeen",
+            "openbare",
+            "koninklijk",
+            "ministerieel",
+            "bijzondere",
+            "vaste"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            ",",
+            ",",
+            ",",
+            ".",
+            ",",
+            ".",
+            ",",
+            ",",
+            ".",
+            ",",
+            ".",
+            ":",
+            ".",
+            ";",
+            ";",
+            ".",
+            ",",
+            ",",
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": [
+            "één",
+            "honderd",
+            "zes",
+            "één",
+            "vijf",
+            "honderd",
+            "honderd",
+            "vijftig",
+            "één",
+            "zes",
+            "2",
+            "350",
+            "600",
+            "3",
+            "twee",
+            "1",
+            "1975",
+            "11",
+            "1976"
+          ]
+        },
+        "named_entities": {
+          "CARDINAL": "3",
+          "PERCENT": "twee procent",
+          "ORDINAL": "derde",
+          "QUANTITY": "600 cm",
+          "DATE": "11 oktober 1976",
+          "GPE": "minimumafmetingen",
+          "ORG": "Afdeling VI"
+        },
+        "dependency_parsing": "Als[1: beschikt, 2: mark] een[1: constructie, 2: det] constructie[1: beschikt, 2: nsubj] beschikt[1: moet, 2: parataxis] over[1: parkeerplaatsen, 2: case] één[1: parkeerplaatsen, 2: nummod] tot[1: parkeerplaatsen, 2: case] en[1: tot, 2: fixed] met[1: tot, 2: fixed] honderd[1: parkeerplaatsen, 2: nummod] eigen[1: parkeerplaatsen, 2: amod] parkeerplaatsen[1: beschikt, 2: obl] ,[1: beschikt, 2: punct] moet[1: moet, 2: ROOT] minstens[1: procent, 2: amod] zes[1: procent, 2: nummod] procent[1: moet, 2: nsubj] van[1: aantal, 2: case] het[1: aantal, 2: det] totale[1: aantal, 2: amod] aantal[1: procent, 2: nmod] parkeerplaatsen[1: aantal, 2: nmod] ,[1: parkeerplaats, 2: punct] en[1: parkeerplaats, 2: cc] minstens[1: parkeerplaats, 2: amod] één[1: parkeerplaats, 2: nummod] parkeerplaats[1: procent, 2: conj] ,[1: parkeerplaats, 2: punct] een[1: parkeerplaats, 2: det] aangepaste[1: parkeerplaats, 2: amod] parkeerplaats[1: moet, 2: parataxis] zijn[1: parkeerplaats, 2: cop] .[1: moet, 2: punct] Vanaf[1: vijf, 2: case] vijf[1: zijn, 2: obl] tot[1: parkeerplaatsen, 2: case] en[1: tot, 2: fixed] met[1: tot, 2: fixed] honderd[1: parkeerplaatsen, 2: nummod] eigen[1: parkeerplaatsen, 2: amod] parkeerplaatsen[1: vijf, 2: nmod] ,[1: vijf, 2: punct] moeten[1: zijn, 2: aux] de[1: parkeerplaatsen, 2: det] aangepaste[1: parkeerplaatsen, 2: amod] parkeerplaatsen[1: zijn, 2: nsubj] ook[1: voorbehouden, 2: advmod] voorbehouden[1: parkeerplaatsen, 2: acl] parkeerplaatsen[1: zijn, 2: obj] zijn[1: zijn, 2: ROOT] .[1: zijn, 2: punct] Als[1: beschikt, 2: mark] een[1: constructie, 2: det] constructie[1: beschikt, 2: nsubj] beschikt[1: zijn, 2: advcl] over[1: parkeerplaatsen, 2: case] meer[1: honderd, 2: amod] dan[1: meer, 2: fixed] honderd[1: parkeerplaatsen, 2: nummod] eigen[1: parkeerplaatsen, 2: amod] parkeerplaatsen[1: beschikt, 2: obl] ,[1: zijn, 2: punct] moet[1: zijn, 2: aux] bovendien[1: zijn, 2: advmod] per[1: schijf, 2: case] extra[1: schijf, 2: amod] schijf[1: zijn, 2: obl] van[1: parkeerplaatsen, 2: case] vijftig[1: parkeerplaatsen, 2: nummod] parkeerplaatsen[1: schijf, 2: nmod] ,[1: parkeerplaats, 2: punct] telkens[1: parkeerplaats, 2: amod] één[1: parkeerplaats, 2: nummod] parkeerplaats[1: schijf, 2: nmod] een[1: parkeerplaats, 2: det] aangepaste[1: parkeerplaats, 2: nmod] en[1: voorbehouden, 2: cc] voorbehouden[1: aangepaste, 2: conj] parkeerplaats[1: parkeerplaats, 2: parataxis] zijn[1: zijn, 2: ROOT] .[1: zijn, 2: punct] Als[1: bedraagt, 2: mark] het[1: aantal, 2: det] totale[1: aantal, 2: amod] aantal[1: bedraagt, 2: nsubj] nieuw[1: leggen, 2: advmod] aan[1: leggen, 2: compound:prt] te[1: leggen, 2: mark] leggen[1: parkeerplaatsen, 2: acl] parkeerplaatsen[1: aantal, 2: nmod] minder[1: bedraagt, 2: advmod] bedraagt[1: bedraagt, 2: ROOT] dan[1: procent, 2: mark] zes[1: procent, 2: nummod] procent[1: bedraagt, 2: advcl] van[1: aantal, 2: case] het[1: aantal, 2: det] totale[1: aantal, 2: amod] aantal[1: procent, 2: nmod] parkeerplaatsen[1: aantal, 2: nmod] ,[1: beperkt, 2: punct] beperkt[1: bedraagt, 2: conj] de[1: verplichting, 2: det] verplichting[1: beperkt, 2: nsubj] van[1: eerste, 2: case] het[1: eerste, 2: det] eerste[1: verplichting, 2: nmod] en[1: lid, 2: cc] het[1: lid, 2: det] tweede[1: lid, 2: amod] lid[1: verplichting, 2: conj] zich[1: beperkt, 2: expl:pv] tot[1: nieuw, 2: case] de[1: nieuw, 2: det] nieuw[1: leggen, 2: obl] aan[1: leggen, 2: compound:prt] te[1: leggen, 2: mark] leggen[1: parkeerplaatsen, 2: acl] parkeerplaatsen[1: beperkt, 2: nsubj] .[1: bedraagt, 2: punct] Een[1: parkeerplaats, 2: det] aangepaste[1: parkeerplaats, 2: amod] parkeerplaats[1: voldoet, 2: nsubj] voldoet[1: voldoet, 2: ROOT] aan[1: normen, 2: case] de[1: normen, 2: det] volgende[1: normen, 2: amod] normen[1: voldoet, 2: obl] :[1: voldoet, 2: punct] 1[1: voldoet, 2: parataxis] .[1: voldoet, 2: punct] ze[1: bevindt, 2: nsubj] bevindt[1: bevindt, 2: ROOT] zich[1: bevindt, 2: expl:pv] zo[1: dicht, 2: advmod] dicht[1: ingang, 2: amod] mogelijk[1: zo, 2: advcl] bij[1: ingang, 2: case] de[1: ingang, 2: det] toegankelijke[1: ingang, 2: amod] ingang[1: bevindt, 2: obl] van[1: constructie, 2: case] de[1: constructie, 2: det] constructie[1: ingang, 2: nmod] of[1: voetgangersuitgang, 2: cc] bij[1: voetgangersuitgang, 2: case] de[1: voetgangersuitgang, 2: det] voetgangersuitgang[1: constructie, 2: conj] van[1: parkeervoorziening, 2: case] de[1: parkeervoorziening, 2: det] parkeervoorziening[1: constructie, 2: nmod] ;[1: bevindt, 2: punct] 2[1: 2, 2: ROOT] .[1: 2, 2: punct] bij[1: dwarsparkeren, 2: case] dwarsparkeren[1: bedraagt, 2: obl] en[1: schuinparkeren, 2: cc] schuinparkeren[1: dwarsparkeren, 2: conj] bedraagt[1: bedraagt, 2: ROOT] de[1: breedte, 2: det] breedte[1: bedraagt, 2: nsubj] van[1: parkeerplaats, 2: case] de[1: parkeerplaats, 2: det] aangepaste[1: parkeerplaats, 2: amod] parkeerplaats[1: breedte, 2: nmod] minstens[1: cm, 2: amod] 350[1: cm, 2: nummod] cm[1: bedraagt, 2: nsubj] en[1: langsparkeren, 2: cc] bij[1: langsparkeren, 2: case] langsparkeren[1: cm, 2: conj] bedraagt[1: bedraagt, 2: conj] de[1: lengte, 2: det] lengte[1: bedraagt, 2: nsubj] van[1: parkeerplaats, 2: case] de[1: parkeerplaats, 2: det] aangepaste[1: parkeerplaats, 2: amod] parkeerplaats[1: lengte, 2: nmod] minstens[1: cm, 2: amod] 600[1: cm, 2: nummod] cm[1: bedraagt, 2: obl] ;[1: 3, 2: punct] 3[1: bedraagt, 2: parataxis] .[1: bedraagt, 2: punct] het[1: oppervlak, 2: det] oppervlak[1: helt, 2: nsubj] van[1: parkeerplaats, 2: case] de[1: parkeerplaats, 2: det] aangepaste[1: parkeerplaats, 2: amod] parkeerplaats[1: oppervlak, 2: nmod] helt[1: helt, 2: ROOT] niet[1: helt, 2: advmod] meer[1: twee, 2: amod] dan[1: meer, 2: fixed] twee[1: procent, 2: nummod] procent[1: helt, 2: obl] .[1: helt, 2: punct] [[1: [, 2: ROOT] Om[1: komen, 2: mark] als[1: komen, 2: mark] voorbehouden[1: parkeerplaats, 2: amod] parkeerplaats[1: komen, 2: obl] in[1: aanmerking, 2: case] aanmerking[1: komen, 2: compound:prt] te[1: komen, 2: mark] komen[1: voldoen, 2: advcl] ,[1: komen, 2: punct] moet[1: voldoen, 2: aux] een[1: parkeerplaats, 2: det] parkeerplaats[1: voldoen, 2: obj] aan[1: bepalingen, 2: case] de[1: bepalingen, 2: det] bepalingen[1: parkeerplaats, 2: nmod] van[1: alinea, 2: case] de[1: alinea, 2: det] derde[1: alinea, 2: amod] alinea[1: bepalingen, 2: nmod] voldoen[1: voldoen, 2: ROOT] en[1: voorbehouden, 2: cc] voorbehouden[1: voldoen, 2: conj] worden[1: voorbehouden, 2: aux:pass] voor[1: personen, 2: case] personen[1: houdende, 2: obl] met[1: handicap, 2: case] een[1: handicap, 2: det] handicap[1: houdende, 2: obl] conform[1: besluit, 2: case] het[1: besluit, 2: det] koninklijk[1: besluit, 2: amod] besluit[1: houdende, 2: obl] houdende[1: voorbehouden, 2: obl] algemeen[1: reglement, 2: amod] reglement[1: houdende, 2: obj] op[1: politie, 2: case] de[1: politie, 2: det] politie[1: houdende, 2: obl] van[1: wegverkeer, 2: case] het[1: wegverkeer, 2: det] wegverkeer[1: politie, 2: nmod] en[1: gebruik, 2: cc] van[1: gebruik, 2: case] het[1: gebruik, 2: det] gebruik[1: houdende, 2: conj] van[1: weg, 2: case] de[1: weg, 2: det] openbare[1: weg, 2: amod] weg[1: gebruik, 2: nmod] van[1: 1, 2: case] 1[1: weg, 2: nmod] december[1: 1, 2: flat] 1975[1: 1, 2: flat] ,[1: aangegeven, 2: punct] en[1: aangegeven, 2: cc] aangegeven[1: houdende, 2: conj] volgens[1: bepalingen, 2: case] de[1: bepalingen, 2: det] bepalingen[1: aangegeven, 2: obl] van[1: besluit, 2: case] het[1: besluit, 2: det] voormelde[1: besluit, 2: amod] koninklijk[1: besluit, 2: amod] besluit[1: bepalingen, 2: nmod] en[1: besluit, 2: cc] het[1: besluit, 2: det] ministerieel[1: besluit, 2: amod] besluit[1: bepalingen, 2: conj] van[1: 11, 2: case] 11[1: besluit, 2: nmod] oktober[1: 11, 2: flat] 1976[1: 11, 2: flat] waarbij[1: bepaald, 2: advmod] de[1: minimumafmetingen, 2: det] minimumafmetingen[1: bepaald, 2: nsubj:pass] en[1: plaatsingsvoorwaarden, 2: cc] de[1: plaatsingsvoorwaarden, 2: det] bijzondere[1: plaatsingsvoorwaarden, 2: amod] plaatsingsvoorwaarden[1: minimumafmetingen, 2: conj] van[1: verkeerstekens, 2: case] de[1: verkeerstekens, 2: det] verkeerstekens[1: plaatsingsvoorwaarden, 2: nmod] worden[1: bepaald, 2: aux:pass] bepaald[1: besluit, 2: acl:relcl] .[1: voldoen, 2: punct] ][1: ], 2: ROOT] Afdeling[1: Afdeling, 2: ROOT] VI[1: Afdeling, 2: flat] .[1: Afdeling, 2: punct] Bepalingen[1: Bepalingen, 2: ROOT] met[1: inrichtingselementen, 2: case] betrekking[1: met, 2: fixed] tot[1: met, 2: fixed] vaste[1: inrichtingselementen, 2: amod] inrichtingselementen[1: Bepalingen, 2: nmod]"
+      }
+    },
+    {
+      "artikel_id": "Art. 28.",
+      "tekst": "Als een vast inrichtingselement met het oog op het onthaal van het publiek of een daarmee gelijkgestelde constructie wordt aangebracht, moet vóór dat element voor een vrije en vlakke draairuimte worden gezorgd. Aan alle elementen als vermeld in het eerste lid moet een verlaagd gedeelte aangebracht worden. De hoogte tot de bovenzijde van het verlaagde gedeelte bedraagt hoogstens 80 cm. Onder het verlaagde gedeelte moet een opening zijn van minstens 70 cm hoog, minstens 90 cm breed en minstens 60 cm diep.",
+      "analyses": {
+        "keywords": [
+          "een vast inrichtingselement",
+          "oog",
+          "het onthaal",
+          "het publiek",
+          "een daarmee gelijkgestelde constructie",
+          "dat element",
+          "een vrije en vlakke draairuimte",
+          "alle elementen",
+          "het eerste lid",
+          "een verlaagd gedeelte",
+          "De hoogte",
+          "de bovenzijde",
+          "het verlaagde gedeelte",
+          "het verlaagde gedeelte",
+          "een opening"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "inrichtingselement",
+            "oog",
+            "onthaal",
+            "publiek",
+            "constructie",
+            "element",
+            "draairuimte",
+            "elementen",
+            "lid",
+            "gedeelte",
+            "hoogte",
+            "bovenzijde",
+            "gedeelte",
+            "gedeelte",
+            "opening"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "gelijkgestelde",
+            "aanbrengen",
+            "zorgen",
+            "vermelden",
+            "verlagen",
+            "aanbrengen",
+            "verlagen",
+            "bedragen",
+            "verlagen"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "worden",
+            "moeten",
+            "worden",
+            "moeten",
+            "worden",
+            "moeten",
+            "zijn"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [],
+          "eigennamen_(proper_noun)_[PROPN]": [],
+          "voorzetsels_(adposition)_[ADP]": [
+            "met",
+            "op",
+            "van",
+            "vóór",
+            "voor",
+            "Aan",
+            "in",
+            "tot",
+            "van",
+            "Onder",
+            "van"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [
+            "Als",
+            "als"
+          ],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [
+            "of",
+            "en",
+            "en"
+          ],
+          "lidwoord_(determiner)_[DET]": [
+            "een",
+            "het",
+            "het",
+            "het",
+            "een",
+            "dat",
+            "een",
+            "alle",
+            "het",
+            "een",
+            "De",
+            "de",
+            "het",
+            "het",
+            "een"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [
+            "daarmee",
+            "hoogstens",
+            "minstens",
+            "minstens",
+            "minstens"
+          ],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "vast",
+            "vrije",
+            "vlakke",
+            "eerste",
+            "hoog",
+            "breed",
+            "diep"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            ",",
+            ".",
+            ".",
+            ".",
+            ",",
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": [
+            "80",
+            "70",
+            "90",
+            "60"
+          ]
+        },
+        "named_entities": {
+          "ORDINAL": "eerste",
+          "QUANTITY": "60 cm"
+        },
+        "dependency_parsing": "Als[1: inrichtingselement, 2: mark] een[1: inrichtingselement, 2: det] vast[1: inrichtingselement, 2: amod] inrichtingselement[1: aangebracht, 2: advcl] met[1: onthaal, 2: case] het[1: met, 2: fixed] oog[1: met, 2: fixed] op[1: met, 2: fixed] het[1: onthaal, 2: det] onthaal[1: inrichtingselement, 2: nmod] van[1: publiek, 2: case] het[1: publiek, 2: det] publiek[1: onthaal, 2: nmod] of[1: constructie, 2: cc] een[1: constructie, 2: det] daarmee[1: gelijkgestelde, 2: advmod] gelijkgestelde[1: constructie, 2: acl] constructie[1: publiek, 2: conj] wordt[1: aangebracht, 2: aux:pass] aangebracht[1: gezorgd, 2: csubj] ,[1: aangebracht, 2: punct] moet[1: gezorgd, 2: aux] vóór[1: element, 2: case] dat[1: element, 2: det] element[1: gezorgd, 2: obl] voor[1: draairuimte, 2: case] een[1: draairuimte, 2: det] vrije[1: draairuimte, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] draairuimte[1: gezorgd, 2: obl] worden[1: gezorgd, 2: aux:pass] gezorgd[1: gezorgd, 2: ROOT] .[1: gezorgd, 2: punct] Aan[1: elementen, 2: case] alle[1: elementen, 2: det] elementen[1: aangebracht, 2: obl] als[1: vermeld, 2: cc] vermeld[1: elementen, 2: acl] in[1: lid, 2: case] het[1: lid, 2: det] eerste[1: lid, 2: amod] lid[1: vermeld, 2: obl] moet[1: aangebracht, 2: aux] een[1: gedeelte, 2: det] verlaagd[1: gedeelte, 2: amod] gedeelte[1: aangebracht, 2: nsubj:pass] aangebracht[1: aangebracht, 2: ROOT] worden[1: aangebracht, 2: aux:pass] .[1: aangebracht, 2: punct] De[1: hoogte, 2: det] hoogte[1: bedraagt, 2: nsubj] tot[1: bovenzijde, 2: case] de[1: bovenzijde, 2: det] bovenzijde[1: hoogte, 2: nmod] van[1: gedeelte, 2: case] het[1: gedeelte, 2: det] verlaagde[1: gedeelte, 2: amod] gedeelte[1: bovenzijde, 2: nmod] bedraagt[1: bedraagt, 2: ROOT] hoogstens[1: cm, 2: amod] 80[1: cm, 2: nummod] cm[1: bedraagt, 2: obl] .[1: bedraagt, 2: punct] Onder[1: gedeelte, 2: case] het[1: gedeelte, 2: det] verlaagde[1: gedeelte, 2: amod] gedeelte[1: hoog, 2: obl] moet[1: hoog, 2: cop] een[1: opening, 2: det] opening[1: hoog, 2: nsubj] zijn[1: hoog, 2: cop] van[1: cm, 2: case] minstens[1: cm, 2: amod] 70[1: cm, 2: nummod] cm[1: hoog, 2: obl] hoog[1: breed, 2: advmod] ,[1: cm, 2: punct] minstens[1: cm, 2: amod] 90[1: cm, 2: nummod] cm[1: breed, 2: obl] breed[1: breed, 2: ROOT] en[1: cm, 2: cc] minstens[1: cm, 2: amod] 60[1: cm, 2: nummod] cm[1: breed, 2: conj] diep[1: cm, 2: orphan] .[1: breed, 2: punct]"
+      }
+    },
+    {
+      "artikel_id": "Art. 29.",
+      "tekst": "Bij handelingen aan binnen- of buitenruimtes met vaste inrichtingselementen die dienst doen als zitplaatsen voor toeschouwers of toehoorders, moeten minstens twee vrije ruimtes gereserveerd worden voor personen met een handicap in elke ruimte met minder dan vijftig zitplaatsen waar een voorstelling wordt aangeboden. Elk van die vrije ruimtes moet minstens 90 cm breed en minstens 140 cm diep zijn en moet zich bevinden op een vloer zonder niveauverschillen of hellingen. Op het toegangspad naar die vrije ruimtes en eraan grenzend moet in een vrije en vlakke draairuimte voorzien worden. Vanaf vijftig zitplaatsen en voor elke extra groep van vijftig zitplaatsen moet bijkomend voor minstens één extra vrije ruimte als vermeld in het eerste lid gezorgd worden. Als het totale aantal nieuw te bouwen, te herbouwen, te verbouwen of uit te breiden zitplaatsen minder bedraagt dan de te reserveren vrije ruimtes voor personen met een handicap als vermeld in het eerste en tweede lid, beperkt die verplichting zich tot de nieuw te bouwen, te herbouwen, te verbouwen of uit te breiden zitplaatsen.",
+      "analyses": {
+        "keywords": [
+          "handelingen",
+          "buitenruimtes",
+          "vaste inrichtingselementen",
+          "die",
+          "dienst",
+          "zitplaatsen",
+          "toeschouwers",
+          "toehoorders",
+          "minstens twee vrije ruimtes",
+          "personen",
+          "een handicap",
+          "elke ruimte",
+          "zitplaatsen",
+          "een voorstelling",
+          "Elk",
+          "die vrije ruimtes",
+          "een vloer",
+          "niveauverschillen",
+          "hellingen",
+          "het toegangspad",
+          "die vrije ruimtes",
+          "een vrije en vlakke draairuimte",
+          "zitplaatsen",
+          "elke extra groep",
+          "zitplaatsen",
+          "minstens één extra vrije ruimte",
+          "het eerste lid",
+          "het totale aantal",
+          "zitplaatsen",
+          "de te reserveren vrije ruimtes",
+          "personen",
+          "een handicap",
+          "het eerste en tweede lid",
+          "die verplichting",
+          "zitplaatsen"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "handelingen",
+            "buitenruimtes",
+            "inrichtingselementen",
+            "dienst",
+            "zitplaatsen",
+            "toeschouwers",
+            "toehoorders",
+            "ruimtes",
+            "personen",
+            "handicap",
+            "ruimte",
+            "zitplaatsen",
+            "voorstelling",
+            "ruimtes",
+            "vloer",
+            "niveauverschillen",
+            "hellingen",
+            "toegangspad",
+            "ruimtes",
+            "draairuimte",
+            "zitplaatsen",
+            "groep",
+            "zitplaatsen",
+            "ruimte",
+            "lid",
+            "aantal",
+            "zitplaatsen",
+            "ruimtes",
+            "personen",
+            "handicap",
+            "lid",
+            "verplichting",
+            "zitplaatsen"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "doen",
+            "reserveren",
+            "aanbieden",
+            "bevinden",
+            "grenzend",
+            "voorzien",
+            "bijkomen",
+            "vermelden",
+            "zorgen",
+            "bouwen",
+            "herbouwen",
+            "verbouwen",
+            "uitbreiden",
+            "bedragen",
+            "reserveren",
+            "vermelden",
+            "beperken",
+            "bouwen",
+            "herbouwen",
+            "verbouwen",
+            "uitbreiden"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "moeten",
+            "worden",
+            "worden",
+            "moeten",
+            "zijn",
+            "moeten",
+            "moeten",
+            "worden",
+            "moeten",
+            "worden"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [
+            "die",
+            "minder",
+            "Elk",
+            "zich",
+            "zich"
+          ],
+          "eigennamen_(proper_noun)_[PROPN]": [],
+          "voorzetsels_(adposition)_[ADP]": [
+            "Bij",
+            "aan",
+            "met",
+            "voor",
+            "voor",
+            "met",
+            "in",
+            "met",
+            "van",
+            "op",
+            "zonder",
+            "Op",
+            "naar",
+            "in",
+            "Vanaf",
+            "voor",
+            "van",
+            "voor",
+            "in",
+            "te",
+            "te",
+            "te",
+            "uit",
+            "te",
+            "te",
+            "voor",
+            "met",
+            "in",
+            "tot",
+            "te",
+            "te",
+            "te",
+            "uit",
+            "te"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [
+            "als",
+            "dan",
+            "als",
+            "Als",
+            "dan",
+            "als"
+          ],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [
+            "of",
+            "of",
+            "en",
+            "en",
+            "of",
+            "en",
+            "en",
+            "en",
+            "of",
+            "en",
+            "of"
+          ],
+          "lidwoord_(determiner)_[DET]": [
+            "een",
+            "elke",
+            "een",
+            "die",
+            "een",
+            "het",
+            "die",
+            "een",
+            "elke",
+            "het",
+            "het",
+            "de",
+            "een",
+            "het",
+            "die",
+            "de"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [
+            "minstens",
+            "waar",
+            "minstens",
+            "minstens",
+            "eraan",
+            "minstens",
+            "weinig"
+          ],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "vaste",
+            "vrije",
+            "vrije",
+            "breed",
+            "diep",
+            "vrije",
+            "vrije",
+            "vlakke",
+            "extra",
+            "extra",
+            "vrije",
+            "eerste",
+            "totale",
+            "nieuw",
+            "vrije",
+            "eerste",
+            "tweede",
+            "nieuw"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            ",",
+            ".",
+            ".",
+            ".",
+            ".",
+            ",",
+            ",",
+            ",",
+            ",",
+            ",",
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": [
+            "twee",
+            "vijftig",
+            "90",
+            "140",
+            "vijftig",
+            "vijftig",
+            "één"
+          ]
+        },
+        "named_entities": {
+          "CARDINAL": "één",
+          "QUANTITY": "140 cm",
+          "ORDINAL": "tweede"
+        },
+        "dependency_parsing": "Bij[1: handelingen, 2: case] handelingen[1: gereserveerd, 2: obl] aan[1: binnen-, 2: case] binnen-[1: handelingen, 2: nmod] of[1: buitenruimtes, 2: cc] buitenruimtes[1: binnen-, 2: conj] met[1: inrichtingselementen, 2: case] vaste[1: inrichtingselementen, 2: amod] inrichtingselementen[1: binnen-, 2: nmod] die[1: doen, 2: nsubj] dienst[1: doen, 2: obj] doen[1: inrichtingselementen, 2: acl:relcl] als[1: zitplaatsen, 2: mark] zitplaatsen[1: doen, 2: advcl] voor[1: toeschouwers, 2: case] toeschouwers[1: zitplaatsen, 2: nmod] of[1: toehoorders, 2: cc] toehoorders[1: toeschouwers, 2: conj] ,[1: handelingen, 2: punct] moeten[1: gereserveerd, 2: aux] minstens[1: ruimtes, 2: amod] twee[1: ruimtes, 2: nummod] vrije[1: ruimtes, 2: amod] ruimtes[1: gereserveerd, 2: nsubj:pass] gereserveerd[1: gereserveerd, 2: ROOT] worden[1: gereserveerd, 2: aux:pass] voor[1: personen, 2: case] personen[1: gereserveerd, 2: obl] met[1: handicap, 2: case] een[1: handicap, 2: det] handicap[1: personen, 2: nmod] in[1: ruimte, 2: case] elke[1: ruimte, 2: det] ruimte[1: handicap, 2: nmod] met[1: zitplaatsen, 2: case] minder[1: vijftig, 2: amod] dan[1: minder, 2: fixed] vijftig[1: zitplaatsen, 2: nummod] zitplaatsen[1: ruimte, 2: nmod] waar[1: aangeboden, 2: advmod] een[1: voorstelling, 2: det] voorstelling[1: aangeboden, 2: nsubj:pass] wordt[1: aangeboden, 2: aux:pass] aangeboden[1: zitplaatsen, 2: acl:relcl] .[1: gereserveerd, 2: punct] Elk[1: breed, 2: nsubj] van[1: ruimtes, 2: case] die[1: ruimtes, 2: det] vrije[1: ruimtes, 2: amod] ruimtes[1: Elk, 2: nmod] moet[1: breed, 2: aux] minstens[1: cm, 2: amod] 90[1: cm, 2: nummod] cm[1: breed, 2: obl] breed[1: breed, 2: ROOT] en[1: diep, 2: cc] minstens[1: cm, 2: amod] 140[1: cm, 2: nummod] cm[1: diep, 2: nsubj] diep[1: breed, 2: conj] zijn[1: diep, 2: cop] en[1: bevinden, 2: cc] moet[1: bevinden, 2: aux] zich[1: bevinden, 2: expl:pv] bevinden[1: diep, 2: conj] op[1: vloer, 2: case] een[1: vloer, 2: det] vloer[1: bevinden, 2: obl] zonder[1: niveauverschillen, 2: case] niveauverschillen[1: vloer, 2: nmod] of[1: hellingen, 2: cc] hellingen[1: niveauverschillen, 2: conj] .[1: breed, 2: punct] Op[1: toegangspad, 2: case] het[1: toegangspad, 2: det] toegangspad[1: voorzien, 2: obl] naar[1: ruimtes, 2: case] die[1: ruimtes, 2: det] vrije[1: ruimtes, 2: amod] ruimtes[1: toegangspad, 2: nmod] en[1: grenzend, 2: cc] eraan[1: grenzend, 2: advmod] grenzend[1: toegangspad, 2: conj] moet[1: voorzien, 2: aux] in[1: draairuimte, 2: case] een[1: draairuimte, 2: det] vrije[1: draairuimte, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] draairuimte[1: voorzien, 2: obl] voorzien[1: voorzien, 2: ROOT] worden[1: voorzien, 2: aux:pass] .[1: voorzien, 2: punct] Vanaf[1: zitplaatsen, 2: case] vijftig[1: zitplaatsen, 2: nummod] zitplaatsen[1: bijkomend, 2: obl] en[1: groep, 2: cc] voor[1: groep, 2: case] elke[1: groep, 2: det] extra[1: groep, 2: amod] groep[1: zitplaatsen, 2: conj] van[1: zitplaatsen, 2: case] vijftig[1: zitplaatsen, 2: nummod] zitplaatsen[1: groep, 2: nmod] moet[1: bijkomend, 2: aux] bijkomend[1: gezorgd, 2: advcl] voor[1: ruimte, 2: case] minstens[1: ruimte, 2: amod] één[1: ruimte, 2: nummod] extra[1: vrije, 2: advmod] vrije[1: ruimte, 2: amod] ruimte[1: bijkomend, 2: obl] als[1: vermeld, 2: mark] vermeld[1: bijkomend, 2: advcl] in[1: lid, 2: case] het[1: lid, 2: det] eerste[1: lid, 2: amod] lid[1: gezorgd, 2: obl] gezorgd[1: gezorgd, 2: ROOT] worden[1: gezorgd, 2: aux:pass] .[1: gezorgd, 2: punct] Als[1: bouwen, 2: mark] het[1: aantal, 2: det] totale[1: aantal, 2: amod] aantal[1: bouwen, 2: obj] nieuw[1: bouwen, 2: advmod] te[1: bouwen, 2: mark] bouwen[1: verbouwen, 2: advcl] ,[1: herbouwen, 2: punct] te[1: herbouwen, 2: mark] herbouwen[1: bouwen, 2: conj] ,[1: verbouwen, 2: punct] te[1: verbouwen, 2: mark] verbouwen[1: verbouwen, 2: ROOT] of[1: breiden, 2: cc] uit[1: breiden, 2: compound:prt] te[1: breiden, 2: mark] breiden[1: verbouwen, 2: conj] zitplaatsen[1: bedraagt, 2: nsubj] minder[1: bedraagt, 2: advmod] bedraagt[1: bedraagt, 2: ROOT] dan[1: ruimtes, 2: mark] de[1: ruimtes, 2: det] te[1: reserveren, 2: mark] reserveren[1: ruimtes, 2: acl] vrije[1: ruimtes, 2: amod] ruimtes[1: bedraagt, 2: dep] voor[1: personen, 2: case] personen[1: ruimtes, 2: nmod] met[1: handicap, 2: case] een[1: handicap, 2: det] handicap[1: ruimtes, 2: nmod] als[1: vermeld, 2: cc] vermeld[1: bedraagt, 2: advcl] in[1: lid, 2: case] het[1: lid, 2: det] eerste[1: lid, 2: nmod] en[1: tweede, 2: cc] tweede[1: eerste, 2: conj] lid[1: vermeld, 2: obl] ,[1: beperkt, 2: punct] beperkt[1: bedraagt, 2: parataxis] die[1: verplichting, 2: det] verplichting[1: bouwen, 2: nsubj] zich[1: bouwen, 2: obj] tot[1: nieuw, 2: case] de[1: nieuw, 2: det] nieuw[1: bouwen, 2: obl] te[1: bouwen, 2: mark] bouwen[1: beperkt, 2: ccomp] ,[1: herbouwen, 2: punct] te[1: herbouwen, 2: mark] herbouwen[1: bedraagt, 2: conj] ,[1: verbouwen, 2: punct] te[1: verbouwen, 2: mark] verbouwen[1: bedraagt, 2: advcl] of[1: breiden, 2: cc] uit[1: breiden, 2: compound:prt] te[1: breiden, 2: mark] breiden[1: zitplaatsen, 2: acl] zitplaatsen[1: verbouwen, 2: obj] .[1: bedraagt, 2: punct]"
+      }
+    },
+    {
+      "artikel_id": "Art. 01.",
+      "tekst": "Elke deur moet exact één eigenschap hebben die de breedte van een deur aangeeft.",
+      "analyses": {
+        "keywords": [
+          "Elke deur",
+          "eigenschap",
+          "die",
+          "de breedte",
+          "een deur"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "deur",
+            "eigenschap",
+            "breedte",
+            "deur"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "hebben",
+            "aangeefn"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "moeten"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [
+            "die"
+          ],
+          "eigennamen_(proper_noun)_[PROPN]": [],
+          "voorzetsels_(adposition)_[ADP]": [
+            "van"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [],
+          "lidwoord_(determiner)_[DET]": [
+            "Elke",
+            "de",
+            "een"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "exact"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": [
+            "één"
+          ]
+        },
+        "named_entities": {
+          "ORG": "Elke",
+          "CARDINAL": "één"
+        },
+        "dependency_parsing": "Elke[1: deur, 2: det] deur[1: hebben, 2: nsubj] moet[1: hebben, 2: aux] exact[1: hebben, 2: advmod] één[1: eigenschap, 2: nummod] eigenschap[1: hebben, 2: obj] hebben[1: hebben, 2: ROOT] die[1: aangeeft, 2: nsubj] de[1: breedte, 2: det] breedte[1: aangeeft, 2: obj] van[1: deur, 2: case] een[1: deur, 2: det] deur[1: breedte, 2: nmod] aangeeft[1: eigenschap, 2: acl:relcl] .[1: hebben, 2: punct]"
+      }
+    },
+    {
+      "artikel_id": "Art. 02.",
+      "tekst": "De verhouding van de hoogte tot de breedte van elke deuropening moet minimaal 2:1 zijn om te zorgen voor voldoende verticale ruimte.",
+      "analyses": {
+        "keywords": [
+          "De verhouding",
+          "de hoogte",
+          "de breedte",
+          "elke deuropening",
+          "voldoende verticale ruimte"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "verhouding",
+            "hoogte",
+            "breedte",
+            "deuropening",
+            "ruimte"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "zorgen"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "moeten",
+            "zijn"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [],
+          "eigennamen_(proper_noun)_[PROPN]": [],
+          "voorzetsels_(adposition)_[ADP]": [
+            "van",
+            "tot",
+            "van",
+            "om",
+            "te",
+            "voor"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [],
+          "lidwoord_(determiner)_[DET]": [
+            "De",
+            "de",
+            "de",
+            "elke"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "minimaal",
+            "voldoende",
+            "verticale"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": []
+        },
+        "named_entities": {},
+        "dependency_parsing": "De[1: verhouding, 2: det] verhouding[1: 2:1, 2: nsubj] van[1: hoogte, 2: case] de[1: hoogte, 2: det] hoogte[1: verhouding, 2: nmod] tot[1: breedte, 2: case] de[1: breedte, 2: det] breedte[1: verhouding, 2: nmod] van[1: deuropening, 2: case] elke[1: deuropening, 2: det] deuropening[1: breedte, 2: nmod] moet[1: 2:1, 2: aux] minimaal[1: 2:1, 2: advmod] 2:1[1: 2:1, 2: ROOT] zijn[1: 2:1, 2: cop] om[1: zorgen, 2: mark] te[1: zorgen, 2: mark] zorgen[1: 2:1, 2: advcl] voor[1: ruimte, 2: case] voldoende[1: ruimte, 2: det] verticale[1: ruimte, 2: amod] ruimte[1: zorgen, 2: obl] .[1: 2:1, 2: punct]"
+      }
+    }
+  ]
+}
