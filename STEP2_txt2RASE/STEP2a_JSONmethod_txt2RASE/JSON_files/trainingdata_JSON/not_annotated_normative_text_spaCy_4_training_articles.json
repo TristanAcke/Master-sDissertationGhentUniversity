@@ -1,0 +1,585 @@
+{
+  "artikelen": [
+    {
+      "artikel_id": "Art. 00.",
+      "tekst": "Het fietspad voor fietsers en bakfietsen moet een minimale breedte van 1 meter hebben, behalve indien in de 2 rijrichtingen het fietspad gekruist wordt, dan dient deze doorgang 2,2 meter breed te zijn.",
+      "analyses": {
+        "keywords": [
+          "Het fietspad",
+          "fietsers",
+          "bakfietsen",
+          "een minimale breedte",
+          "meter",
+          "de 2 rijrichtingen",
+          "het fietspad",
+          "deze doorgang",
+          "meter"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "fietspad",
+            "fietsers",
+            "bakfietsen",
+            "breedte",
+            "meter",
+            "rijrichtingen",
+            "fietspad",
+            "doorgang",
+            "meter"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "hebben",
+            "kruisen",
+            "dienen"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "moeten",
+            "worden",
+            "zijn"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [],
+          "eigennamen_(proper_noun)_[PROPN]": [],
+          "voorzetsels_(adposition)_[ADP]": [
+            "voor",
+            "van",
+            "in",
+            "te"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [
+            "behalve",
+            "indien"
+          ],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [
+            "en"
+          ],
+          "lidwoord_(determiner)_[DET]": [
+            "Het",
+            "een",
+            "de",
+            "het",
+            "deze"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [
+            "dan"
+          ],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "minimale",
+            "breed"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            ",",
+            ",",
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": [
+            "1",
+            "2",
+            "2,2"
+          ]
+        },
+        "named_entities": {
+          "QUANTITY": "2,2 meter",
+          "CARDINAL": "2"
+        },
+        "dependency_parsing": "Het[1: fietspad, 2: det] fietspad[1: hebben, 2: nsubj] voor[1: fietsers, 2: case] fietsers[1: fietspad, 2: nmod] en[1: bakfietsen, 2: cc] bakfietsen[1: fietsers, 2: conj] moet[1: hebben, 2: aux] een[1: breedte, 2: det] minimale[1: breedte, 2: amod] breedte[1: hebben, 2: obj] van[1: meter, 2: case] 1[1: meter, 2: nummod] meter[1: breedte, 2: nmod] hebben[1: dient, 2: parataxis] ,[1: gekruist, 2: punct] behalve[1: gekruist, 2: mark] indien[1: gekruist, 2: mark] in[1: rijrichtingen, 2: case] de[1: rijrichtingen, 2: det] 2[1: rijrichtingen, 2: nummod] rijrichtingen[1: gekruist, 2: obl] het[1: fietspad, 2: det] fietspad[1: gekruist, 2: nsubj:pass] gekruist[1: hebben, 2: advcl] wordt[1: gekruist, 2: aux:pass] ,[1: hebben, 2: punct] dan[1: breed, 2: advmod] dient[1: dient, 2: ROOT] deze[1: doorgang, 2: det] doorgang[1: dient, 2: nsubj] 2,2[1: meter, 2: nummod] meter[1: breed, 2: obl] breed[1: dient, 2: xcomp] te[1: breed, 2: mark] zijn[1: breed, 2: cop] .[1: dient, 2: punct]"
+      }
+    },
+    {
+      "artikel_id": "Art. 15.",
+      "tekst": "De breedte van een looppad, gemeten tussen onafgewerkte binnenmuren, bedraagt minstens 175 cm, zodat na de afwerking van de wanden en met inbegrip van de ruimte voor plinten en leuningen een vrije en vlakke doorgangsbreedte van minstens 150 cm gegarandeerd wordt. In de aanvraag kunnen afwijkingen op de ruwbouwmaten worden opgenomen als in het aanvraagdossier gemotiveerd aangetoond wordt dat na de afwerking van de wanden een vrije en vlakke doorgangsbreedte, gemeten tussen de afgewerkte wanden met inbegrip van eventuele leuningen en plinten, van minstens 150 cm gegarandeerd wordt. In afwijking van lid 1 en 2 is een versmalling van een dergelijk looppad toegestaan in de volgende gevallen: 1. bij een versmalling die zich over hoogstens 120 cm uitstrekt: als de breedte van het looppad, gemeten tussen de onafgewerkte binnenmuren, minstens 115 cm bedraagt, zodat na afwerking van de wanden en met inbegrip van de ruimte voor plinten steeds een vrije en vlakke doorgangsbreedte van minstens 90 cm gegarandeerd wordt; 2. bij een versmalling die zich over meer dan 120 cm uitstrekt: als de breedte van het looppad, gemeten tussen de onafgewerkte binnenmuren, minstens 145 cm bedraagt, zodat na afwerking van de wanden en met inbegrip van de ruimte voor plinten een vrije en vlakke doorgangsbreedte van minstens 120 cm gegarandeerd wordt. In dit laatste geval moet minstens elke tien meter, alsook aan het begin en het einde van de versmalling, voor een vrije en vlakke draairuimte worden gezorgd.",
+      "analyses": {
+        "keywords": [
+          "De breedte",
+          "een looppad",
+          "onafgewerkte binnenmuren",
+          "de afwerking",
+          "de wanden",
+          "inbegrip",
+          "de ruimte",
+          "plinten",
+          "leuningen",
+          "de aanvraag",
+          "afwijkingen",
+          "de ruwbouwmaten",
+          "het aanvraagdossier",
+          "de afwerking",
+          "de wanden",
+          "de afgewerkte wanden",
+          "inbegrip",
+          "eventuele leuningen",
+          "plinten",
+          "afwijking",
+          "lid",
+          "een versmalling",
+          "een dergelijk looppad",
+          "de volgende gevallen",
+          "een versmalling",
+          "die",
+          "de breedte",
+          "het looppad",
+          "de onafgewerkte binnenmuren",
+          "afwerking",
+          "de wanden",
+          "inbegrip",
+          "de ruimte",
+          "plinten",
+          "een versmalling",
+          "die",
+          "de breedte",
+          "het looppad",
+          "de onafgewerkte binnenmuren",
+          "afwerking",
+          "de wanden",
+          "inbegrip",
+          "de ruimte",
+          "plinten",
+          "dit laatste geval",
+          "minstens elke tien meter",
+          "het begin",
+          "het einde",
+          "de versmalling",
+          "een vrije en vlakke draairuimte"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "breedte",
+            "looppad",
+            "binnenmuren",
+            "afwerking",
+            "wanden",
+            "inbegrip",
+            "ruimte",
+            "plinten",
+            "leuningen",
+            "aanvraag",
+            "afwijkingen",
+            "ruwbouwmaten",
+            "aanvraagdossier",
+            "afwerking",
+            "wanden",
+            "wanden",
+            "inbegrip",
+            "leuningen",
+            "plinten",
+            "afwijking",
+            "lid",
+            "versmalling",
+            "looppad",
+            "gevallen",
+            "versmalling",
+            "breedte",
+            "looppad",
+            "binnenmuren",
+            "afwerking",
+            "wanden",
+            "inbegrip",
+            "ruimte",
+            "plinten",
+            "versmalling",
+            "breedte",
+            "looppad",
+            "binnenmuren",
+            "afwerking",
+            "wanden",
+            "inbegrip",
+            "ruimte",
+            "plinten",
+            "geval",
+            "meter",
+            "begin",
+            "einde",
+            "versmalling",
+            "draairuimte"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "meten",
+            "onafgewerken",
+            "bedragen",
+            "garanderen",
+            "opnemen",
+            "gemotiveerd",
+            "aantonen",
+            "meten",
+            "afgewerkt",
+            "garanderen",
+            "toestaan",
+            "volgen",
+            "uitstrekken",
+            "meten",
+            "onafgewerkken",
+            "bedragen",
+            "garanderen",
+            "uitstrekken",
+            "meten",
+            "onafgewerkken",
+            "bedragen",
+            "garanderen",
+            "zorgen"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "worden",
+            "kunnen",
+            "worden",
+            "worden",
+            "worden",
+            "zijn",
+            "worden",
+            "worden",
+            "moeten",
+            "worden"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [
+            "die",
+            "zich",
+            "die",
+            "zich",
+            "meer"
+          ],
+          "eigennamen_(proper_noun)_[PROPN]": [
+            "doorgangsbreedte",
+            "doorgangsbreedte",
+            "doorgangsbreedte",
+            "doorgangsbreedte"
+          ],
+          "voorzetsels_(adposition)_[ADP]": [
+            "van",
+            "tussen",
+            "na",
+            "van",
+            "met",
+            "van",
+            "voor",
+            "van",
+            "In",
+            "op",
+            "in",
+            "na",
+            "van",
+            "tussen",
+            "met",
+            "van",
+            "van",
+            "In",
+            "van",
+            "van",
+            "in",
+            "bij",
+            "over",
+            "van",
+            "tussen",
+            "na",
+            "van",
+            "met",
+            "van",
+            "voor",
+            "van",
+            "bij",
+            "over",
+            "van",
+            "tussen",
+            "na",
+            "van",
+            "met",
+            "van",
+            "voor",
+            "van",
+            "In",
+            "aan",
+            "van",
+            "voor"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [
+            "zodat",
+            "als",
+            "dat",
+            "als",
+            "zodat",
+            "dan",
+            "als",
+            "zodat"
+          ],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [
+            "en",
+            "en",
+            "en",
+            "en",
+            "en",
+            "en",
+            "en",
+            "en",
+            "en",
+            "en",
+            "alsook",
+            "en",
+            "en"
+          ],
+          "lidwoord_(determiner)_[DET]": [
+            "De",
+            "een",
+            "de",
+            "de",
+            "de",
+            "een",
+            "de",
+            "de",
+            "het",
+            "de",
+            "de",
+            "een",
+            "de",
+            "een",
+            "een",
+            "de",
+            "een",
+            "de",
+            "het",
+            "de",
+            "de",
+            "de",
+            "een",
+            "een",
+            "de",
+            "het",
+            "de",
+            "de",
+            "de",
+            "een",
+            "dit",
+            "elke",
+            "het",
+            "het",
+            "de",
+            "een"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [
+            "minstens",
+            "minstens",
+            "minstens",
+            "hoogstens",
+            "minstens",
+            "steeds",
+            "minstens",
+            "minstens",
+            "minstens",
+            "minstens"
+          ],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "vrije",
+            "vlakke",
+            "vrije",
+            "vlakke",
+            "eventuele",
+            "dergelijk",
+            "vrije",
+            "vlakke",
+            "vrije",
+            "vlakke",
+            "laatste",
+            "vrije",
+            "vlakke"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            ",",
+            ",",
+            ",",
+            ".",
+            ",",
+            ",",
+            ".",
+            ":",
+            ":",
+            ",",
+            ",",
+            ",",
+            ";",
+            ":",
+            ",",
+            ",",
+            ",",
+            ".",
+            ",",
+            ",",
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": [
+            "175",
+            "150",
+            "150",
+            "1",
+            "2",
+            "1",
+            "120",
+            "115",
+            "90",
+            "2",
+            "120",
+            "145",
+            "120",
+            "tien"
+          ]
+        },
+        "named_entities": {
+          "QUANTITY": "tien meter",
+          "CARDINAL": "2"
+        },
+        "dependency_parsing": "De[1: breedte, 2: det] breedte[1: bedraagt, 2: nsubj] van[1: looppad, 2: case] een[1: looppad, 2: det] looppad[1: breedte, 2: nmod] ,[1: gemeten, 2: punct] gemeten[1: looppad, 2: acl] tussen[1: binnenmuren, 2: case] onafgewerkte[1: binnenmuren, 2: amod] binnenmuren[1: gemeten, 2: obl] ,[1: breedte, 2: punct] bedraagt[1: bedraagt, 2: ROOT] minstens[1: cm, 2: amod] 175[1: cm, 2: nummod] cm[1: bedraagt, 2: obl] ,[1: wordt, 2: punct] zodat[1: wordt, 2: mark] na[1: afwerking, 2: case] de[1: afwerking, 2: det] afwerking[1: wordt, 2: obl] van[1: wanden, 2: case] de[1: wanden, 2: det] wanden[1: afwerking, 2: nmod] en[1: inbegrip, 2: cc] met[1: inbegrip, 2: case] inbegrip[1: afwerking, 2: conj] van[1: ruimte, 2: case] de[1: ruimte, 2: det] ruimte[1: inbegrip, 2: nmod] voor[1: plinten, 2: case] plinten[1: ruimte, 2: nmod] en[1: leuningen, 2: cc] leuningen[1: plinten, 2: conj] een[1: doorgangsbreedte, 2: det] vrije[1: doorgangsbreedte, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] doorgangsbreedte[1: afwerking, 2: parataxis] van[1: cm, 2: case] minstens[1: cm, 2: amod] 150[1: cm, 2: nummod] cm[1: gegarandeerd, 2: obl] gegarandeerd[1: wordt, 2: xcomp] wordt[1: bedraagt, 2: advcl] .[1: bedraagt, 2: punct] In[1: aanvraag, 2: case] de[1: aanvraag, 2: det] aanvraag[1: opgenomen, 2: obl] kunnen[1: opgenomen, 2: aux] afwijkingen[1: opgenomen, 2: nsubj:pass] op[1: ruwbouwmaten, 2: case] de[1: ruwbouwmaten, 2: det] ruwbouwmaten[1: afwijkingen, 2: nmod] worden[1: opgenomen, 2: aux:pass] opgenomen[1: opgenomen, 2: ROOT] als[1: gemotiveerd, 2: mark] in[1: aanvraagdossier, 2: case] het[1: aanvraagdossier, 2: det] aanvraagdossier[1: gemotiveerd, 2: obl] gemotiveerd[1: aangetoond, 2: xcomp] aangetoond[1: opgenomen, 2: parataxis] wordt[1: aangetoond, 2: aux:pass] dat[1: wordt, 2: mark] na[1: afwerking, 2: case] de[1: afwerking, 2: det] afwerking[1: wordt, 2: obl] van[1: wanden, 2: case] de[1: wanden, 2: det] wanden[1: afwerking, 2: nmod] een[1: doorgangsbreedte, 2: det] vrije[1: doorgangsbreedte, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] doorgangsbreedte[1: afwerking, 2: nmod] ,[1: gemeten, 2: punct] gemeten[1: doorgangsbreedte, 2: acl] tussen[1: wanden, 2: case] de[1: wanden, 2: det] afgewerkte[1: wanden, 2: amod] wanden[1: gemeten, 2: obl] met[1: inbegrip, 2: case] inbegrip[1: wanden, 2: nmod] van[1: leuningen, 2: case] eventuele[1: leuningen, 2: amod] leuningen[1: inbegrip, 2: nmod] en[1: plinten, 2: cc] plinten[1: leuningen, 2: conj] ,[1: gegarandeerd, 2: punct] van[1: cm, 2: case] minstens[1: cm, 2: amod] 150[1: cm, 2: nummod] cm[1: gegarandeerd, 2: obl] gegarandeerd[1: wordt, 2: xcomp] wordt[1: aangetoond, 2: ccomp] .[1: opgenomen, 2: punct] In[1: afwijking, 2: case] afwijking[1: versmalling, 2: obl] van[1: lid, 2: case] lid[1: afwijking, 2: nmod] 1[1: lid, 2: appos] en[1: 2, 2: cc] 2[1: lid, 2: conj] is[1: versmalling, 2: cop] een[1: versmalling, 2: det] versmalling[1: versmalling, 2: ROOT] van[1: looppad, 2: case] een[1: looppad, 2: det] dergelijk[1: looppad, 2: amod] looppad[1: versmalling, 2: nmod] toegestaan[1: versmalling, 2: acl] in[1: gevallen, 2: case] de[1: gevallen, 2: det] volgende[1: gevallen, 2: amod] gevallen[1: toegestaan, 2: obl] :[1: versmalling, 2: punct] 1[1: 1, 2: ROOT] .[1: 1, 2: punct] bij[1: versmalling, 2: case] een[1: versmalling, 2: det] versmalling[1: versmalling, 2: ROOT] die[1: uitstrekt, 2: nsubj] zich[1: uitstrekt, 2: expl:pv] over[1: cm, 2: case] hoogstens[1: cm, 2: amod] 120[1: cm, 2: nummod] cm[1: uitstrekt, 2: obl] uitstrekt[1: versmalling, 2: acl:relcl] :[1: bedraagt, 2: punct] als[1: bedraagt, 2: mark] de[1: breedte, 2: det] breedte[1: bedraagt, 2: nsubj] van[1: looppad, 2: case] het[1: looppad, 2: det] looppad[1: breedte, 2: nmod] ,[1: gemeten, 2: punct] gemeten[1: breedte, 2: acl] tussen[1: binnenmuren, 2: case] de[1: binnenmuren, 2: det] onafgewerkte[1: binnenmuren, 2: amod] binnenmuren[1: gemeten, 2: obl] ,[1: bedraagt, 2: punct] minstens[1: cm, 2: amod] 115[1: cm, 2: nummod] cm[1: bedraagt, 2: nsubj] bedraagt[1: uitstrekt, 2: advcl] ,[1: gegarandeerd, 2: punct] zodat[1: gegarandeerd, 2: mark] na[1: afwerking, 2: case] afwerking[1: gegarandeerd, 2: obl] van[1: wanden, 2: case] de[1: wanden, 2: det] wanden[1: afwerking, 2: nmod] en[1: inbegrip, 2: cc] met[1: inbegrip, 2: case] inbegrip[1: afwerking, 2: conj] van[1: ruimte, 2: case] de[1: ruimte, 2: det] ruimte[1: inbegrip, 2: nmod] voor[1: plinten, 2: case] plinten[1: ruimte, 2: nmod] steeds[1: doorgangsbreedte, 2: amod] een[1: doorgangsbreedte, 2: det] vrije[1: doorgangsbreedte, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] doorgangsbreedte[1: afwerking, 2: nmod] van[1: cm, 2: case] minstens[1: cm, 2: amod] 90[1: cm, 2: nummod] cm[1: doorgangsbreedte, 2: nmod] gegarandeerd[1: bedraagt, 2: advcl] wordt[1: gegarandeerd, 2: aux:pass] ;[1: versmalling, 2: punct] 2[1: 2, 2: ROOT] .[1: 2, 2: punct] bij[1: versmalling, 2: case] een[1: versmalling, 2: det] versmalling[1: versmalling, 2: ROOT] die[1: uitstrekt, 2: nsubj] zich[1: uitstrekt, 2: expl:pv] over[1: cm, 2: case] meer[1: 120, 2: amod] dan[1: meer, 2: fixed] 120[1: cm, 2: nummod] cm[1: uitstrekt, 2: obl] uitstrekt[1: versmalling, 2: acl:relcl] :[1: bedraagt, 2: punct] als[1: bedraagt, 2: mark] de[1: breedte, 2: det] breedte[1: bedraagt, 2: nsubj] van[1: looppad, 2: case] het[1: looppad, 2: det] looppad[1: breedte, 2: nmod] ,[1: gemeten, 2: punct] gemeten[1: breedte, 2: acl] tussen[1: binnenmuren, 2: case] de[1: binnenmuren, 2: det] onafgewerkte[1: binnenmuren, 2: amod] binnenmuren[1: gemeten, 2: obl] ,[1: bedraagt, 2: punct] minstens[1: cm, 2: amod] 145[1: cm, 2: nummod] cm[1: bedraagt, 2: nsubj] bedraagt[1: uitstrekt, 2: advcl] ,[1: wordt, 2: punct] zodat[1: wordt, 2: mark] na[1: afwerking, 2: case] afwerking[1: wordt, 2: obl] van[1: wanden, 2: case] de[1: wanden, 2: det] wanden[1: afwerking, 2: nmod] en[1: inbegrip, 2: cc] met[1: inbegrip, 2: case] inbegrip[1: afwerking, 2: conj] van[1: ruimte, 2: case] de[1: ruimte, 2: det] ruimte[1: inbegrip, 2: nmod] voor[1: plinten, 2: case] plinten[1: ruimte, 2: nmod] een[1: doorgangsbreedte, 2: det] vrije[1: doorgangsbreedte, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] doorgangsbreedte[1: wordt, 2: nsubj] van[1: cm, 2: case] minstens[1: cm, 2: amod] 120[1: cm, 2: nummod] cm[1: gegarandeerd, 2: obl] gegarandeerd[1: wordt, 2: xcomp] wordt[1: bedraagt, 2: advcl] .[1: versmalling, 2: punct] In[1: geval, 2: case] dit[1: geval, 2: det] laatste[1: geval, 2: amod] geval[1: moet, 2: obl] moet[1: moet, 2: ROOT] minstens[1: meter, 2: amod] elke[1: meter, 2: det] tien[1: meter, 2: nummod] meter[1: moet, 2: obl] ,[1: begin, 2: punct] alsook[1: begin, 2: cc] aan[1: begin, 2: case] het[1: begin, 2: det] begin[1: meter, 2: conj] en[1: einde, 2: cc] het[1: einde, 2: det] einde[1: meter, 2: conj] van[1: versmalling, 2: case] de[1: versmalling, 2: det] versmalling[1: einde, 2: nmod] ,[1: gezorgd, 2: punct] voor[1: draairuimte, 2: case] een[1: draairuimte, 2: det] vrije[1: draairuimte, 2: nmod] en[1: vlakke, 2: cc] vlakke[1: vrije, 2: conj] draairuimte[1: gezorgd, 2: obl] worden[1: gezorgd, 2: aux:pass] gezorgd[1: meter, 2: acl] .[1: moet, 2: punct]"
+      }
+    },
+    {
+      "artikel_id": "Art. 16.",
+      "tekst": "Een looppad mag alleen hellen in de richting dwars op de normale looprichting om een normale afwatering te verzekeren.",
+      "analyses": {
+        "keywords": [
+          "Een looppad",
+          "de richting",
+          "dwars op de normale looprichting",
+          "een normale afwatering"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "looppad",
+            "richting",
+            "looprichting",
+            "afwatering"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "hellen",
+            "verzekeren"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "mogen"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [],
+          "eigennamen_(proper_noun)_[PROPN]": [],
+          "voorzetsels_(adposition)_[ADP]": [
+            "in",
+            "op",
+            "om",
+            "te"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [],
+          "lidwoord_(determiner)_[DET]": [
+            "Een",
+            "de",
+            "de",
+            "een"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [
+            "alleen"
+          ],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "dwars",
+            "normale",
+            "normale"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": []
+        },
+        "named_entities": {},
+        "dependency_parsing": "Een[1: looppad, 2: det] looppad[1: hellen, 2: nsubj] mag[1: hellen, 2: aux] alleen[1: hellen, 2: advmod] hellen[1: hellen, 2: ROOT] in[1: richting, 2: case] de[1: richting, 2: det] richting[1: hellen, 2: obl] dwars[1: looprichting, 2: amod] op[1: looprichting, 2: case] de[1: looprichting, 2: det] normale[1: looprichting, 2: amod] looprichting[1: richting, 2: nmod] om[1: verzekeren, 2: mark] een[1: afwatering, 2: det] normale[1: afwatering, 2: amod] afwatering[1: verzekeren, 2: obj] te[1: verzekeren, 2: mark] verzekeren[1: richting, 2: acl] .[1: hellen, 2: punct]"
+      }
+    },
+    {
+      "artikel_id": "Art. 17.",
+      "tekst": "Bij handelingen waarbij brandhaspels, brandblusapparaten of andere uit de wand stekende constructies geïnstalleerd worden, mogen die constructies het ongestoord gebruik van het looppad niet in het gedrang brengen. [Hiertoe kunnen die apparaten in een nis ingewerkt worden zodat ze niet buiten het afgewerkte muurvlak uitsteken.]",
+      "analyses": {
+        "keywords": [
+          "handelingen",
+          "brandhaspels",
+          "brandblusapparaten",
+          "de wand",
+          "constructies",
+          "die constructies",
+          "het looppad",
+          "het gedrang",
+          "[",
+          "die apparaten",
+          "een nis",
+          "ze",
+          "het afgewerkte muurvlak"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "handelingen",
+            "brandhaspels",
+            "brandblusapparaten",
+            "wand",
+            "constructies",
+            "constructies",
+            "gebruik",
+            "looppad",
+            "gedrang",
+            "[",
+            "apparaten",
+            "nis",
+            "muurvlak"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "steken",
+            "ïnstalleren",
+            "brengen",
+            "ingewerken",
+            "afgewerkken",
+            "uitsteken"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "worden",
+            "mogen",
+            "kunnen",
+            "worden"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [
+            "ze"
+          ],
+          "eigennamen_(proper_noun)_[PROPN]": [],
+          "voorzetsels_(adposition)_[ADP]": [
+            "Bij",
+            "uit",
+            "van",
+            "in",
+            "in",
+            "buiten"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [
+            "zodat"
+          ],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [
+            "of"
+          ],
+          "lidwoord_(determiner)_[DET]": [
+            "de",
+            "die",
+            "het",
+            "het",
+            "het",
+            "die",
+            "een",
+            "het"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [
+            "waarbij",
+            "niet",
+            "hiertoe",
+            "niet"
+          ],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "andere",
+            "ongestoord"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            ",",
+            ",",
+            ".",
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": []
+        },
+        "named_entities": {},
+        "dependency_parsing": "Bij[1: handelingen, 2: case] handelingen[1: brengen, 2: obl] waarbij[1: geïnstalleerd, 2: advmod] brandhaspels[1: geïnstalleerd, 2: nsubj:pass] ,[1: brandblusapparaten, 2: punct] brandblusapparaten[1: brandhaspels, 2: conj] of[1: andere, 2: cc] andere[1: brandhaspels, 2: conj] uit[1: wand, 2: case] de[1: wand, 2: det] wand[1: stekende, 2: obl] stekende[1: constructies, 2: acl] constructies[1: geïnstalleerd, 2: nsubj:pass] geïnstalleerd[1: handelingen, 2: acl:relcl] worden[1: geïnstalleerd, 2: aux:pass] ,[1: handelingen, 2: punct] mogen[1: brengen, 2: aux] die[1: constructies, 2: det] constructies[1: gebruik, 2: nsubj] het[1: gebruik, 2: det] ongestoord[1: gebruik, 2: amod] gebruik[1: brengen, 2: obj] van[1: looppad, 2: case] het[1: looppad, 2: det] looppad[1: gebruik, 2: nmod] niet[1: brengen, 2: advmod] in[1: gedrang, 2: case] het[1: gedrang, 2: det] gedrang[1: brengen, 2: obl] brengen[1: brengen, 2: ROOT] .[1: brengen, 2: punct] [[1: [, 2: ROOT] Hiertoe[1: ingewerkt, 2: advmod] kunnen[1: ingewerkt, 2: aux] die[1: apparaten, 2: det] apparaten[1: ingewerkt, 2: nsubj:pass] in[1: nis, 2: case] een[1: nis, 2: det] nis[1: ingewerkt, 2: obl] ingewerkt[1: ingewerkt, 2: ROOT] worden[1: ingewerkt, 2: aux:pass] zodat[1: uitsteken, 2: mark] ze[1: uitsteken, 2: nsubj] niet[1: uitsteken, 2: advmod] buiten[1: muurvlak, 2: case] het[1: muurvlak, 2: det] afgewerkte[1: muurvlak, 2: amod] muurvlak[1: uitsteken, 2: obl] uitsteken[1: ingewerkt, 2: advcl] .[1: ingewerkt, 2: punct] ][1: ], 2: ROOT]"
+      }
+    }
+  ]
+}
