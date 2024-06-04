@@ -1,0 +1,75 @@
+{
+  "artikelen": [
+    {
+      "artikel_id": "Art. 00.",
+      "tekst": "Voor liftinstallaties in hoogbouw en middelbouw dienen deze een deuropening te hebben van 2 meter breed, uitgenomen in laagbouw is geen verplichte breedte van toepassing.",
+      "analyses": {
+        "keywords": [
+          "liftinstallaties",
+          "hoogbouw",
+          "middelbouw",
+          "een deuropening",
+          "meter",
+          "laagbouw",
+          "geen verplichte breedte",
+          "toepassing"
+        ],
+        "pos_tags": {
+          "zelfstandige_naamwoorden_(noun)_[NOUN]": [
+            "liftinstallaties",
+            "hoogbouw",
+            "middelbouw",
+            "deuropening",
+            "meter",
+            "laagbouw",
+            "breedte",
+            "toepassing"
+          ],
+          "werkwoorden_(verb)_[VERB]": [
+            "dienen",
+            "hebben",
+            "uitnemen",
+            "verplichten"
+          ],
+          "hulp_koppelwerkwoorden_(auxiliary_verb)_[AUX]": [
+            "zijn"
+          ],
+          "persoonlijk_voornaamwoord_(pronoun)_[PRON]": [],
+          "eigennamen_(proper_noun)_[PROPN]": [],
+          "voorzetsels_(adposition)_[ADP]": [
+            "Voor",
+            "in",
+            "te",
+            "van",
+            "in",
+            "van"
+          ],
+          "onderschikkend voegwoord_(subordinating_conjunction)_[SCONJ]": [],
+          "nederschikkend voegwoord_(coordinating_conjunction)_[CCONJ]": [
+            "en"
+          ],
+          "lidwoord_(determiner)_[DET]": [
+            "deze",
+            "een",
+            "geen"
+          ],
+          "bijwoorden_(adverb)_[ADV]": [],
+          "bijvoeglijk_voornaamwoord_(adjective) [ADJ]": [
+            "breed"
+          ],
+          "leestekens_(punctuation_mark)_[PUNCT]": [
+            ",",
+            "."
+          ],
+          "cijfergetallen_(numeral)_[NUM]": [
+            "2"
+          ]
+        },
+        "named_entities": {
+          "QUANTITY": "2 meter"
+        },
+        "dependency_parsing": "Voor[1: liftinstallaties, 2: case] liftinstallaties[1: dienen, 2: obl] in[1: hoogbouw, 2: case] hoogbouw[1: liftinstallaties, 2: nmod] en[1: middelbouw, 2: cc] middelbouw[1: hoogbouw, 2: conj] dienen[1: dienen, 2: ROOT] deze[1: dienen, 2: nsubj] een[1: deuropening, 2: det] deuropening[1: hebben, 2: obj] te[1: hebben, 2: mark] hebben[1: dienen, 2: xcomp] van[1: meter, 2: case] 2[1: meter, 2: nummod] meter[1: breed, 2: obl] breed[1: dienen, 2: xcomp] ,[1: uitgenomen, 2: punct] uitgenomen[1: dienen, 2: parataxis] in[1: laagbouw, 2: case] laagbouw[1: uitgenomen, 2: obl] is[1: breedte, 2: cop] geen[1: breedte, 2: det] verplichte[1: breedte, 2: amod] breedte[1: dienen, 2: obj] van[1: toepassing, 2: case] toepassing[1: breedte, 2: nmod] .[1: dienen, 2: punct]"
+      }
+    }
+  ]
+}
