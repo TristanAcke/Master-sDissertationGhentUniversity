@@ -2,7 +2,7 @@ from openai import OpenAI
 
 client = OpenAI(api_key="FILL IN YOUR OWN API KEY")
 
-
+### training data ###
 text1 = (
    """Het fietspad voor fietsers en bakfietsen moet een minimale breedte van 1 meter hebben, behalve indien in de 2 rijrichtingen het fietspad gekruist wordt, dan dient deze doorgang 2,2 meter breed te zijn.""")
 antwoord1 = """RASE annotated text: <R> Het <a>fietspad</a> voor <s>fietsers</s> en <s>bakfietsen</s> moet <r>een minimale breedte van 1 meter</r> hebben, <E>behalve indien in de 2 rijrichtingen het fietspad gekruist wordt, dan dient <a>deze doorgang</a> <r>2,2 meter breed</r> te zijn</E>. </R>"""
@@ -206,11 +206,12 @@ Art. 29/2.
 <R> Bij <a> handelingen aan publiek toegankelijke toiletten </a> moet <r> in elk sanitair blok minstens één toilet voldoen aan de bepalingen van artikel 12, 30, eerste lid en artikel 31, inzonderheid 1° en 2° </r>. </R> <R> Bij <a> handelingen aan publiek toegankelijke doucheruimtes </a>, moet <r> in elk sanitair blok minstens één douche voldoen aan de bepalingen van artikel 12, 30, tweede en derde alinea, artikel 31, inzonderheid 1° en 3° en artikel 31/1 </r>. </R> <R> Bij <a> aparte toiletten of doucheruimtes </a>, die alleen voor vrouwen of alleen voor mannen bestemd zijn, moet telkens <r> minstens één toilet of doucheruimte in elke zone voldoen aan de bepalingen van artikel 12 en artikel 30 tot en met 31/1 </r>, <e> tenzij het aangepast toilet of de aangepaste doucheruimte, bestemd voor zowel vrouwen als mannen, zich in een zone bevindt die niet gereserveerd is voor mannen dan wel vrouwen </e>. </R>
 """
 
-
+### validation data ###
 text = """Art. Extra 02.
 De verhouding van de hoogte tot de breedte van elke deuropening moet minimaal 2:1 zijn om te zorgen voor voldoende verticale ruimte.
 """
 
+### GPT interaction (ChatCompletions) ###
 response = client.chat.completions.create(
 model="gpt-4-1106-preview",
  messages=[
